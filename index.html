@@ -244,11 +244,145 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-create_blogusehexo" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/02/22/create_blogusehexo/" class="article-date">
+      <time datetime="2016-02-22T14:00:24.897Z" itemprop="datePublished">2016-02-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/02/22/create_blogusehexo/">使用Hexo Github 搭建个人博客</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <ol>
+<li><p>首先要申请一个Github帐号,如果不会申请可以参考下面这篇文章，这里面写得十分详细。<br><a href="http://blog.csdn.net/renfufei/article/details/37725057/" target="_blank" rel="external">创建GitHub技术博客全攻略 </a>   </p>
+<p>这里要注意的就是建立用于存放博客代码仓库的命名是固定的，它的格式是：</p>
+<blockquote>
+<p>github用户名.github.io<br>比如我的github用户名为tbfungeek，那么repo名字就应该是tbfungeek.github.io   </p>
+</blockquote>
+</li>
+<li><p>建立好后将代码库clone到本地：  </p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">https</span>://github.com/tbfungeek/tbfungeek.github.io.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>接下来就是安装Hexo，这一步的前提是你已经安装了npm等工具，如果没有安装的话可以Google 一下  </p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure>
+<p>要检查是否成功安装可以运行下hexo -v 看下是否能够打印出版本信息</p>
+</li>
+<li><p>安装完hexo后就可以进入步骤2中clone到本地的博客源码，运行  </p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> init</span><br></pre></td></tr></table></figure>
+<p>如果hexo模板创建成功的话终端会打出如下信息：  </p>
+<blockquote>
+<p>INFO  You are almost done! Don’t forget to run ‘npm install’ before you start blogging with Hexo!</p>
+</blockquote>
+</li>
+<li><p>接下来要干吗？上面打印出的信息写得很清楚运行npm install   </p>
+<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">   npm install</span><br><span class="line">   <span class="escape">``</span><span class="escape">` </span> </span><br><span class="line"><span class="number">6</span>. 我想大部分从前从未自己搭建过博客的人这时候都会很像马上就看到自己搭建的博客的效果了吧？运行</span><br></pre></td></tr></table></figure>
+<p>hexo serv</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">  这时候终端会出现如下提示：</span><br><span class="line">  &gt; INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.    </span><br><span class="line"></span><br><span class="line">  打开浏览器，敲入http://0.0.0.0:4000/ 你看到了什么？ 没错是你搭建的博客。</span><br><span class="line"></span><br><span class="line"><span class="bullet">7. </span>发布博客到GitHub让大家都可以访问到你的博客：  </span><br><span class="line">进入步骤2克隆到你本地的博客代码根目录，是否看到有个文件<span class="emphasis">*_config.yml*</span> 文件？看该文件的最后一行  </span><br><span class="line"></span><br><span class="line">  &gt;deploy:    </span><br><span class="line"></span><br><span class="line">  这个就是配置部署博客的属性，具体可以参考  </span><br><span class="line">  [<span class="link_label">http://hexo.io/docs/deployment.html</span>](<span class="link_url">http://hexo.io/docs/deployment.html</span>)</span><br><span class="line"></span><br><span class="line">  下面是我的配置：</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>deploy:<br>    type: git<br>    repository: <a href="https://github.com/tbfungeek/tbfungeek.github.io.git" target="_blank" rel="external">https://github.com/tbfungeek/tbfungeek.github.io.git</a><br>    branch: master<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">8.</span>这里我们使用的是git部署工具，所以我们需要安装hexo-deploy-git：</span><br></pre></td></tr></table></figure></p>
+<p>npm install hexo-deployer-git –save<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">9.</span> 产生博客并部署到github</span><br></pre></td></tr></table></figure></p>
+<p>hexo generate 产生博客<br>hexo deploy   部署到github，这时候会要求输入github用户名和密码<br>```</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo_command" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/02/22/hexo_command/" class="article-date">
+      <time datetime="2016-02-22T12:56:27.484Z" itemprop="datePublished">2016-02-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/02/22/hexo_command/">Hexo 常用的命令</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-markDown_baseusage" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/02/22/markDown_baseusage/" class="article-date">
-      <time datetime="2016-02-22T12:28:14.696Z" itemprop="datePublished">2016-02-22</time>
+      <time datetime="2016-02-22T12:52:02.432Z" itemprop="datePublished">2016-02-22</time>
 </a>
     </div>
   
@@ -328,8 +462,7 @@
 <figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">三个 <span class="escape">` </span>号</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>上面仅仅是最基本的用法，其他的用法将会在后续使用的时候继续完善<br>同时推荐个工具—–Atom  可以用它来编辑Markdown 文档并且提供预览功能<br>下面是截图：  </p>
-<p><img src="/resources/markdownpic.png" alt="Markdown 截图"></p>
+<p>上面仅仅是最基本的用法，其他的用法将会在后续使用的时候继续完善<br>同时推荐个工具—–Atom  可以用它来编辑Markdown 文档并且提供预览功能<br>下面是截图：<br><img src="/resources/markdownpic.png" alt="Markdown 截图"></p>
 
       
     </div>
