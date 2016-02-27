@@ -71,7 +71,7 @@
     <link href="http://yoursite.com/2016/02/27/Linux-mint-%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BD%BF%E7%94%A8Skype/"/>
     <id>http://yoursite.com/2016/02/27/Linux-mint-环境下使用Skype/</id>
     <published>2016-02-27T01:57:13.000Z</published>
-    <updated>2016-02-27T03:22:56.221Z</updated>
+    <updated>2016-02-27T09:11:36.413Z</updated>
     
     <content type="html">&lt;ol&gt;
 &lt;li&gt;&amp;#x5B89;&amp;#x88C5;&amp;#x6444;&amp;#x50CF;&amp;#x5934;&amp;#x652F;&amp;#x6301;&lt;br&gt;&amp;#x9996;&amp;#x5148;&amp;#x9700;&amp;#x8981;&amp;#x8FD0;&amp;#x884C;&amp;#x5982;&amp;#x4E0B;&amp;#x547D;&amp;#x4EE4;&amp;#x5B89;&amp;#x88C5;cheese&amp;#xFF1A;&lt;figure class=&quot;highlight actionscript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-&lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt; install cheese&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -105,8 +105,7 @@
     
     <summary type="html">
     
-      &lt;ol&gt;
-&lt;li&gt;&amp;#x5B89;&amp;#x88C5;&amp;#x6444;&amp;#x50CF;&amp;#x5934;&amp;#x652F;&amp;#x6301;&lt;br&gt;&amp;#x9996;&amp;#x5148;&amp;#x9700;&amp;#x8981;&amp;#x8FD0;&amp;#x884C;&amp;#x5982;&amp;#x4E0B;&amp;#x547D
+      由于最近的需要要在Linux Mint 下安装Skype 所以特此总结下供有需要的朋友们参考。
     
     </summary>
     
