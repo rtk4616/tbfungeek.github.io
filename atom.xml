@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-27T06:44:30.945Z</updated>
+  <updated>2016-02-27T09:10:00.477Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,15 +20,38 @@
     <link href="http://yoursite.com/2016/02/27/%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E9%93%BE%E6%8E%A5/"/>
     <id>http://yoursite.com/2016/02/27/常用的网站链接/</id>
     <published>2016-02-27T03:35:36.000Z</published>
-    <updated>2016-02-27T06:44:30.945Z</updated>
+    <updated>2016-02-27T09:10:00.477Z</updated>
     
     <content type="html">&lt;p&gt;C&amp;#x8BED;&amp;#x97F3;&amp;#x5E93;&amp;#x67E5;&amp;#x8BE2;&amp;#x7F51;&amp;#x7AD9;&amp;#xFF1A;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://ganquan.info/standard-c/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;C&amp;#x8BED;&amp;#x97F3;&amp;#x5E93;&amp;#x67E5;&amp;#x8BE2;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;www.cplusplus.com/reference/&quot;&gt;C&amp;#x8BED;&amp;#x97F3;&amp;#x5E93;&amp;#x67E5;&amp;#x8BE2;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.gnu.org/software/libc/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;libc &amp;#x6E90;&amp;#x7801;&amp;#x4E0B;&amp;#x8F7D;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ganquan.info/standard-c/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;C&amp;#x8BED;&amp;#x97F3;&amp;#x5E93;&amp;#x67E5;&amp;#x8BE2;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cplusplus.com/reference/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;C&amp;#x8BED;&amp;#x97F3;&amp;#x5E93;&amp;#x67E5;&amp;#x8BE2;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/libc/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;libc &amp;#x6E90;&amp;#x7801;&amp;#x4E0B;&amp;#x8F7D;&amp;#x7F51;&amp;#x7AD9;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jobbole/awesome-c-cn?hmsr=toutiao.io&amp;amp;utm_medium=toutiao.io&amp;amp;utm_source=toutiao.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;C &amp;#x8BED;&amp;#x8A00;&amp;#x8D44;&amp;#x6E90;&amp;#x5927;&amp;#x5168;&amp;#x4E2D;&amp;#x6587;&amp;#x7248;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tool.oschina.net&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oschina &amp;#x5728;&amp;#x7EBF;&amp;#x5DE5;&amp;#x5177;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Cheet Sheet&amp;#xFF1A;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;www.cheat-sheets.org/&quot;&gt;&amp;#x5404;&amp;#x79CD;Cheet Sheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cheat-sheets.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x5404;&amp;#x79CD;Cheet Sheet&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x5237;&amp;#x9898;&amp;#x7F51;&amp;#x7AD9;&amp;#xFF1A;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://leetcode.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LeetCode Online Judge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;www.51nod.com/focus.html&quot;&gt;51Node&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tz.ahalei.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x554A;&amp;#x54C8;&amp;#x6311;&amp;#x6218;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nowcoder.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x725B;&amp;#x5BA2;&amp;#x7F51;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;blog.csdn.net/fightforyourdream/article/details/17301969&quot;&gt;CSDN &amp;#x67D0;&amp;#x535A;&amp;#x5BA2;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Android &amp;#x7F51;&amp;#x7AD9;&amp;#x6536;&amp;#x96C6;&amp;#xFF1A;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://adb.rocko.xyz&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Develop Bookmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x6CE1;&amp;#x5728;&amp;#x7F51;&amp;#x4E0A;&amp;#x7684;&amp;#x65E5;&amp;#x5B50;&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://toutiao.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x5F00;&amp;#x53D1;&amp;#x8005;&amp;#x5934;&amp;#x6761;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gold.xitu.io/#/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x7A00;&amp;#x571F;&amp;#x6398;&amp;#x91D1;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.androiddevtools.cn/donate.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Dev Tools&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Freelander/Android_Data?hmsr=toutiao.io&amp;amp;utm_medium=toutiao.io&amp;amp;utm_source=toutiao.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android &amp;#x5B66;&amp;#x4E60;&amp;#x8D44;&amp;#x6599;&amp;#x6536;&amp;#x96C6;&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.androidweekly.cn/android-dev-weekly-issue-69/?hmsr=toutiao.io&amp;amp;utm_medium=toutiao.io&amp;amp;utm_source=toutiao.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android&amp;#x5F00;&amp;#x53D1;&amp;#x6280;&amp;#x672F;&amp;#x5468;&amp;#x62A5;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://laobie.github.io/android/2016/02/14/android-studio-tips.html?hmsr=toutiao.io&amp;amp;utm_medium=toutiao.io&amp;amp;utm_source=toutiao.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Androidstudio&amp;#x5C0F;&amp;#x6280;&amp;#x5DE7;&amp;#x5408;&amp;#x8F91;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
     
