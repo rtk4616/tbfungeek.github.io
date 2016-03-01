@@ -4,13 +4,32 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/03/01/Android-studio-%E4%B8%8B%E4%BD%BF%E7%94%A8JNI/</loc>
+    <lastmod>2016-03-01T11:22:54.139Z</lastmod>
+    <data>
+        <display>
+        <title>Android studio 下使用JNI</title>
+        <pubTime>2016-03-01T11:23:12.131Z</pubTime>
+        
+        <tag>Android studio 使用技巧</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/02/27/Git-GitHub/</loc>
-    <lastmod>2016-02-28T14:32:22.601Z</lastmod>
+    <lastmod>2016-02-28T14:39:14.889Z</lastmod>
     <data>
         <display>
         <title>Git && GitHub</title>
         <pubTime>2016-02-27T10:41:48.000Z</pubTime>
         
+        <tag>Git &amp;&amp; github</tag>
+         
          
            
         </display>
