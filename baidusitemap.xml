@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/02/27/%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E9%93%BE%E6%8E%A5/</loc>
+    <lastmod>2016-03-03T05:21:22.533Z</lastmod>
+    <data>
+        <display>
+        <title>常用的网站链接</title>
+        <pubTime>2016-02-27T03:35:36.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/02/Android-studio-%E4%B8%8B%E5%BC%80%E5%8F%91FFmpeg/</loc>
+    <lastmod>2016-03-02T12:01:52.484Z</lastmod>
+    <data>
+        <display>
+        <title>Android studio 下开发FFmpeg</title>
+        <pubTime>2016-03-02T11:52:33.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/01/Android-studio-%E4%B8%8B%E4%BD%BF%E7%94%A8so%E5%BA%93/</loc>
+    <lastmod>2016-03-01T12:09:59.791Z</lastmod>
+    <data>
+        <display>
+        <title>Android studio 下使用so库</title>
+        <pubTime>2016-03-01T12:09:59.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/03/01/Android-studio-%E4%B8%8B%E4%BD%BF%E7%94%A8JNI/</loc>
     <lastmod>2016-03-01T11:29:34.651Z</lastmod>
     <data>
@@ -30,21 +75,6 @@
         
         <tag>Git &amp;&amp; github</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/27/%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2016-02-27T10:50:58.200Z</lastmod>
-    <data>
-        <display>
-        <title>常用的网站链接</title>
-        <pubTime>2016-02-27T03:35:36.000Z</pubTime>
-        
          
            
         </display>
