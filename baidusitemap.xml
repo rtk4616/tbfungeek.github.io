@@ -4,42 +4,27 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/03/13/%E5%9C%A8Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85Open-CV-Python-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2016-03-13T14:35:25.808Z</lastmod>
+    <data>
+        <display>
+        <title>在Ubuntu下安装Open CV + Python 开发环境</title>
+        <pubTime>2016-03-13T11:19:45.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/02/27/%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E9%93%BE%E6%8E%A5/</loc>
     <lastmod>2016-03-03T05:21:22.533Z</lastmod>
     <data>
         <display>
         <title>常用的网站链接</title>
         <pubTime>2016-02-27T03:35:36.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/02/Android-studio-%E4%B8%8B%E5%BC%80%E5%8F%91FFmpeg/</loc>
-    <lastmod>2016-03-02T12:01:52.484Z</lastmod>
-    <data>
-        <display>
-        <title>Android studio 下开发FFmpeg</title>
-        <pubTime>2016-03-02T11:52:33.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/01/Android-studio-%E4%B8%8B%E4%BD%BF%E7%94%A8so%E5%BA%93/</loc>
-    <lastmod>2016-03-01T12:09:59.791Z</lastmod>
-    <data>
-        <display>
-        <title>Android studio 下使用so库</title>
-        <pubTime>2016-03-01T12:09:59.000Z</pubTime>
         
          
            
@@ -92,70 +77,6 @@
         
         <tag>Linux 使用</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/25/Android-%E7%BB%98%E5%9B%BE%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-02-25T13:50:24.865Z</lastmod>
-    <data>
-        <display>
-        <title>Android 绘图总结</title>
-        <pubTime>2016-02-25T13:29:25.000Z</pubTime>
-        
-        <tag>Android 基础总结</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/25/Android-%E8%87%AA%E5%AE%9A%E4%B9%89View%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-02-25T13:32:43.702Z</lastmod>
-    <data>
-        <display>
-        <title>Android 自定义View总结</title>
-        <pubTime>2016-02-25T13:31:17.000Z</pubTime>
-        
-        <tag>Android 基础总结</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/25/Android-%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-02-25T13:30:15.904Z</lastmod>
-    <data>
-        <display>
-        <title>Android 事件总结</title>
-        <pubTime>2016-02-25T13:30:15.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/25/Android-%E5%8A%A8%E7%94%BB%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-02-25T13:29:58.043Z</lastmod>
-    <data>
-        <display>
-        <title>Android 动画总结</title>
-        <pubTime>2016-02-25T13:29:58.000Z</pubTime>
-        
          
            
         </display>
