@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-24T14:58:42.496Z</updated>
+  <updated>2016-03-24T15:03:46.192Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/"/>
     <id>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</id>
     <published>2016-03-24T14:30:08.000Z</published>
-    <updated>2016-03-24T14:58:42.496Z</updated>
+    <updated>2016-03-24T15:03:46.192Z</updated>
     
-    <content type="html">&lt;p&gt;####Install OpenCV&lt;/p&gt;
-&lt;h5 id=&quot;Step-1-Make-Directory&quot;&gt;&lt;a href=&quot;#Step-1-Make-Directory&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Make Directory&quot;&gt;&lt;/a&gt;Step 1: Make Directory&lt;/h5&gt;&lt;blockquote&gt;
+    <content type="html">&lt;h4 id=&quot;Install-OpenCV&quot;&gt;&lt;a href=&quot;#Install-OpenCV&quot; class=&quot;headerlink&quot; title=&quot;Install OpenCV&quot;&gt;&lt;/a&gt;Install OpenCV&lt;/h4&gt;&lt;h5 id=&quot;Step-1-Make-Directory&quot;&gt;&lt;a href=&quot;#Step-1-Make-Directory&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Make Directory&quot;&gt;&lt;/a&gt;Step 1: Make Directory&lt;/h5&gt;&lt;blockquote&gt;
 &lt;p&gt;mkdir opencv&lt;br&gt;cd /opencv/&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h5 id=&quot;Step-2-Remove-any-pre-installed-ffmpeg-and-x264&quot;&gt;&lt;a href=&quot;#Step-2-Remove-any-pre-installed-ffmpeg-and-x264&quot; class=&quot;headerlink&quot; title=&quot;Step 2: Remove any pre-installed ffmpeg and x264&quot;&gt;&lt;/a&gt;Step 2: Remove any pre-installed ffmpeg and x264&lt;/h5&gt;&lt;figure class=&quot;highlight q&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-&lt;span class=&quot;built_in&quot;&gt;get&lt;/span&gt; -qq remove ffmpeg x264 libx264-&lt;span class=&quot;built_in&quot;&gt;dev&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -38,8 +37,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;####Install OpenCV&lt;/p&gt;
-&lt;h5 id=&quot;Step-1-Make-Directory&quot;&gt;&lt;a href=&quot;#Step-1-Make-Directory&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Make Directory&quot;&gt;
+      &lt;h4 id=&quot;Install-OpenCV&quot;&gt;&lt;a href=&quot;#Install-OpenCV&quot; class=&quot;headerlink&quot; title=&quot;Install OpenCV&quot;&gt;&lt;/a&gt;Install OpenCV&lt;/h4&gt;&lt;h5 id=&quot;Step-1-Make-Direc
     
     </summary>
     
