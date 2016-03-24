@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-24T15:03:46.192Z</updated>
+  <updated>2016-03-24T15:07:28.672Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/"/>
     <id>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</id>
     <published>2016-03-24T14:30:08.000Z</published>
-    <updated>2016-03-24T15:03:46.192Z</updated>
+    <updated>2016-03-24T15:07:28.672Z</updated>
     
     <content type="html">&lt;h4 id=&quot;Install-OpenCV&quot;&gt;&lt;a href=&quot;#Install-OpenCV&quot; class=&quot;headerlink&quot; title=&quot;Install OpenCV&quot;&gt;&lt;/a&gt;Install OpenCV&lt;/h4&gt;&lt;h5 id=&quot;Step-1-Make-Directory&quot;&gt;&lt;a href=&quot;#Step-1-Make-Directory&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Make Directory&quot;&gt;&lt;/a&gt;Step 1: Make Directory&lt;/h5&gt;&lt;blockquote&gt;
 &lt;p&gt;mkdir opencv&lt;br&gt;cd /opencv/&lt;/p&gt;
