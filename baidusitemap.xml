@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</loc>
+    <lastmod>2016-03-24T15:56:10.120Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2016-03-24T15:56:10.120Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/03/24/Ubuntu-%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%BB%BAQt-%E5%BC%80%E5%8F%91OpenCV%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2016-03-24T15:52:17.360Z</lastmod>
     <data>
@@ -28,21 +43,6 @@
         
         <tag>Opencv</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</loc>
-    <lastmod>2016-03-24T15:12:45.936Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2016-03-24T15:12:45.936Z</pubTime>
-        
          
            
         </display>
