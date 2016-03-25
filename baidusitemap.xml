@@ -4,13 +4,15 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/25/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</loc>
-    <lastmod>2016-03-25T12:47:39.239Z</lastmod>
+    <loc>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</loc>
+    <lastmod>2016-03-25T12:52:24.449Z</lastmod>
     <data>
         <display>
-        <title></title>
-        <pubTime>2016-03-25T12:49:11.481Z</pubTime>
+        <title>在 Ubuntu 14.04 环境下安装OpenCV 3.1.0 + opencv_contrib</title>
+        <pubTime>2016-03-24T14:30:08.000Z</pubTime>
         
+        <tag>OpenCV</tag>
+         
          
            
         </display>
