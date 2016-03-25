@@ -61,8 +61,8 @@
     <title>在 Ubuntu 14.04 环境下安装OpenCV 3.1.0 + opencv_contrib</title>
     <link href="http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/"/>
     <id>http://yoursite.com/2016/03/24/Install-OpenCV-3-1-0-in-Ubuntu-14-04-13-10/</id>
-    <published>2016-03-24T14:30:08.000Z</published>
-    <updated>2016-03-25T12:53:17.298Z</updated>
+    <published>2016-03-24T14:13:02.000Z</published>
+    <updated>2016-03-25T12:54:38.442Z</updated>
     
     <content type="html">&lt;h4 id=&quot;&amp;#x5B89;&amp;#x88C5;Opencv&quot;&gt;&lt;a href=&quot;#&amp;#x5B89;&amp;#x88C5;Opencv&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B89;&amp;#x88C5;Opencv&quot;&gt;&lt;/a&gt;&amp;#x5B89;&amp;#x88C5;Opencv&lt;/h4&gt;&lt;h5 id=&quot;Step-1-&amp;#x521B;&amp;#x5EFA;&amp;#x76EE;&amp;#x5F55;&quot;&gt;&lt;a href=&quot;#Step-1-&amp;#x521B;&amp;#x5EFA;&amp;#x76EE;&amp;#x5F55;&quot; class=&quot;headerlink&quot; title=&quot;Step 1: &amp;#x521B;&amp;#x5EFA;&amp;#x76EE;&amp;#x5F55;&quot;&gt;&lt;/a&gt;Step 1: &amp;#x521B;&amp;#x5EFA;&amp;#x76EE;&amp;#x5F55;&lt;/h5&gt;&lt;blockquote&gt;
 &lt;p&gt;mkdir opencv&lt;br&gt;cd /opencv/&lt;/p&gt;
@@ -85,7 +85,7 @@
     </summary>
     
     
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+      <category term="Opencv" scheme="http://yoursite.com/tags/Opencv/"/>
     
   </entry>
   
