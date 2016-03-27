@@ -248,6 +248,76 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-使用ssh在树莓派和主机间拷贝文件和文件夹" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/27/使用ssh在树莓派和主机间拷贝文件和文件夹/" class="article-date">
+      <time datetime="2016-03-27T02:47:31.740Z" itemprop="datePublished">2016-03-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>title: &#x4F7F;&#x7528;ssh&#x5728;&#x6811;&#x8393;&#x6D3E;&#x548C;&#x4E3B;&#x673A;&#x95F4;&#x62F7;&#x8D1D;&#x6587;&#x4EF6;&#x548C;&#x6587;&#x4EF6;&#x5939;<br>date: 2016-03-27 10:39:40<br>tags:<br>categories:</p>
+<h2 id="description"><a href="#description" class="headerlink" title="description:"></a>description:</h2><ol>
+<li><p>&#x5B89;&#x88C5;ssh&#x5DE5;&#x5177;&#xFF1A;    </p>
+ <figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install ssh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>&#x91CD;&#x542F;ssh&#x5DE5;&#x5177;</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="regexp">/etc/i</span>nit.d<span class="regexp">/ssh restart</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>&#x83B7;&#x53D6;&#x8FDC;&#x7A0B;linux&#x7CFB;&#x7EDF;&#x7684;ip&#x5730;&#x5740;</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>&#x590D;&#x5236;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x547D;&#x4EE4;&#xFF1A;</p>
+</li>
+</ol>
+<ul>
+<li><p>&#x5C06;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x62F7;&#x8D1D;&#x5230;&#x8FDC;&#x7A0B;&#xFF1A;<br>scp &#x6587;&#x4EF6;&#x540D;&#x7528;&#x6237;&#x540D;@&#x8BA1;&#x7B97;&#x673A;IP&#x6216;&#x8005;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#x79F0;:&#x8FDC;&#x7A0B;&#x8DEF;&#x5F84;</p>
+<blockquote>
+<p>&#x672C;&#x5730;192.168.1.8&#x5BA2;&#x6237;&#x7AEF;<br>scp /root/install.* root@192.168.1.12:/usr/local/src</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><p>&#x4ECE;&#x8FDC;&#x7A0B;&#x5C06;&#x6587;&#x4EF6;&#x62F7;&#x56DE;&#x672C;&#x5730;&#xFF1A;<br>scp &#x7528;&#x6237;&#x540D;@&#x8BA1;&#x7B97;&#x673A;IP&#x6216;&#x8005;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#x79F0;:&#x6587;&#x4EF6;&#x540D;&#x672C;&#x5730;&#x8DEF;&#x5F84;</p>
+<blockquote>
+<p>&#x672C;&#x5730;192.168.1.8&#x5BA2;&#x6237;&#x7AEF;&#x53D6;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;12&#x4E0A;&#x7684;&#x6587;&#x4EF6;<br>scp root@192.168.1.12:/usr/local/src/*.log /root/    </p>
+</blockquote>
+</li>
+</ul>
+<p>&#x5982;&#x679C;&#x590D;&#x5236;&#x7684;&#x662F;&#x76EE;&#x5F55;&#x8BF7;&#x5728;scp&#x540E;&#x9762;&#x52A0; -r &#x53C2;&#x6570;</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-树莓派3安装Raspbian-Jessie系统" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -924,70 +994,9 @@
 
 
   
-    <article id="post-Linux-mint-环境下使用Skype" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/02/27/Linux-mint-环境下使用Skype/" class="article-date">
-      <time datetime="2016-02-27T01:57:13.000Z" itemprop="datePublished">2016-02-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/27/Linux-mint-环境下使用Skype/">Linux mint 环境下使用Skype</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              由于最近的需要要在Linux Mint 下安装Skype 所以特此总结下供有需要的朋友们参考。
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux-使用/">Linux 使用</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/02/27/Linux-mint-环境下使用Skype/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
     </nav>
   
 </div>
