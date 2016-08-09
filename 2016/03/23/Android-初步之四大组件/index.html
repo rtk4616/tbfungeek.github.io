@@ -18,7 +18,8 @@
 <meta property="og:site_name" content="Edgar's Blog">
 <meta property="og:description" content="Android &amp;#x5F00;&amp;#x53D1;&amp;#x662F;&amp;#x57FA;&amp;#x4E8E;Java&amp;#x73AF;&amp;#x5883;&amp;#x5F00;&amp;#x53D1;&amp;#x7684;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x4F60;&amp;#x5982;&amp;#x679C;&amp;#x5199;&amp;#x8FC7;&amp;#x6D4B;&amp;#x8BD5;&amp;#x7528;&amp;#x4F8B;&amp;#x7684;&amp;#x8">
 <meta property="og:image" content="http://yoursite.com/2016/03/23/Android-初步之四大组件/0.png">
-<meta property="og:updated_time" content="2016-07-18T13:20:53.078Z">
+<meta property="og:image" content="http://yoursite.com/2016/03/23/Android-初步之四大组件/333.png">
+<meta property="og:updated_time" content="2016-07-26T01:48:57.780Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android 初步之Android组件 Context">
 <meta name="twitter:description" content="Android &amp;#x5F00;&amp;#x53D1;&amp;#x662F;&amp;#x57FA;&amp;#x4E8E;Java&amp;#x73AF;&amp;#x5883;&amp;#x5F00;&amp;#x53D1;&amp;#x7684;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x4F60;&amp;#x5982;&amp;#x679C;&amp;#x5199;&amp;#x8FC7;&amp;#x6D4B;&amp;#x8BD5;&amp;#x7528;&amp;#x4F8B;&amp;#x7684;&amp;#x8">
@@ -133,6 +134,7 @@
 <li>&#x7BA1;&#x7406;&#x79C1;&#x6709;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6570;&#x636E;&#x5E93;</li>
 <li>&#x4F7F;&#x7528;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6743;&#x9650;</li>
 </ul>
+<p><img src="/2016/03/23/Android-&#x521D;&#x6B65;&#x4E4B;&#x56DB;&#x5927;&#x7EC4;&#x4EF6;/333.png" alt=""></p>
 <h4 id="&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;Context&#x6570;&#x76EE;"><a href="#&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;Context&#x6570;&#x76EE;" class="headerlink" title="&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;Context&#x6570;&#x76EE;"></a>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;Context&#x6570;&#x76EE;</h4><p>&#x5728;Android&#x4E2D; Context&#x7684;&#x5B50;&#x7C7B;&#x6709;&#xFF1A;Application&#xFF0C;Activity&#xFF0C;Service&#xFF0C;&#x6240;&#x4EE5;&#xFF1A;<br><figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Context</span>&#x6570;&#x91CF; = Activity&#x6570;&#x91CF; + Service&#x6570;&#x91CF; + <span class="number">1</span> (Application <span class="keyword">Context</span>)</span><br></pre></td></tr></table></figure></p>
 <h4 id="&#x9519;&#x8BEF;&#x4F7F;&#x7528;&#x5E26;&#x6765;&#x7684;&#x95EE;&#x9898;&#xFF1A;"><a href="#&#x9519;&#x8BEF;&#x4F7F;&#x7528;&#x5E26;&#x6765;&#x7684;&#x95EE;&#x9898;&#xFF1A;" class="headerlink" title="&#x9519;&#x8BEF;&#x4F7F;&#x7528;&#x5E26;&#x6765;&#x7684;&#x95EE;&#x9898;&#xFF1A;"></a>&#x9519;&#x8BEF;&#x4F7F;&#x7528;&#x5E26;&#x6765;&#x7684;&#x95EE;&#x9898;&#xFF1A;</h4><p>Context &#x9519;&#x8BEF;&#x4F7F;&#x7528;&#x4F1A;&#x5E26;&#x6765;&#x5F88;&#x4E25;&#x91CD;&#x7684;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8FD9;&#x4E2A;&#x5728;&#x5185;&#x5B58;&#x4F18;&#x5316;&#x90E8;&#x5206;&#x6709;&#x505A;&#x8FC7;&#x4ECB;&#x7ECD;&#xFF0C;&#x6BD4;&#x5982;&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;,&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;&#x61D2;&#x6C49;&#x5F0F;&#x5355;&#x4F8B;&#xFF1A;<br><figure class="highlight smali"><table><tr><td class="code"><pre><span class="line">public class Singleton {</span><br><span class="line">    </span><br><span class="line">   <span class="keyword"> private</span> Context mContext;</span><br><span class="line">   <span class="keyword"> private</span><span class="keyword"> static</span> Singleton instance;</span><br><span class="line">   <span class="keyword"> private</span><span class="function"> Singleton(</span>Context context<span class="function">)</span> {</span><br><span class="line">        this.mContext = context;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">   <span class="keyword"> public</span><span class="keyword"> static</span> Singleton<span class="function"> getInstance(</span>Context context<span class="function">)</span> {</span><br><span class="line">       <span class="instruction"> if </span>(instance == null<span class="function">)</span> {</span><br><span class="line">           <span class="instruction"> instance </span>=<span class="instruction"> new </span>Singleton(context<span class="function">)</span>;</span><br><span class="line">        }</span><br><span class="line">       <span class="instruction"> return </span>instance;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
 <p>&#x6211;&#x4EEC;&#x77E5;&#x9053;&#x5355;&#x4F8B;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x8981;&#x957F;&#x4E8E;&#x4E00;&#x822C;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x4E00;&#x822C;&#x662F;&#x5E38;&#x9A7B;&#x5185;&#x5B58;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x5728;&#x521B;&#x5EFA;&#x8FD9;&#x4E2A;&#x5355;&#x4F8B;&#x7684;&#x65F6;&#x5019;&#x4F20;&#x5165;&#x7684;&#x662F;Activity&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x90A3;&#x4E48;&#x9664;&#x4E86;&#x5E94;&#x7528;&#x9000;&#x51FA;&#xFF0C;&#x5426;&#x5219;Activity&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x4F1A;&#x4E00;&#x76F4;&#x88AB;&#x5355;&#x4F8B;&#x6301;&#x6709;&#xFF0C;&#x6240;&#x4EE5;&#x5BFC;&#x81F4;&#x5373;&#x4F7F;Activity&#x88AB;&#x9500;&#x6BC1;&#x6389;&#xFF0C;&#x4E5F;&#x4E0D;&#x80FD;&#x88AB;GC&#x56DE;&#x6536;&#xFF0C;&#x4ECE;&#x800C;&#x5BFC;&#x81F4;&#x4E86;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;&#x3002;</p>
@@ -244,6 +246,10 @@
 		  
 		
 		  
+			<li><a href="/categories/Android-源码分析/" title="Android 源码分析">Android 源码分析<sup>17</sup></a></li>
+		  
+		
+		  
 			<li><a href="/categories/Android其他/" title="Android其他">Android其他<sup>1</sup></a></li>
 		  
 		
@@ -252,7 +258,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Android进阶/" title="Android进阶">Android进阶<sup>96</sup></a></li>
+			<li><a href="/categories/Android进阶/" title="Android进阶">Android进阶<sup>100</sup></a></li>
 		  
 		
 		  
@@ -307,6 +313,10 @@
 			
 		
 			
+				<li><a href="/tags/AOSP-源码/" title="AOSP 源码">AOSP 源码<sup>17</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Android-常用第三方库/" title="Android 常用第三方库">Android 常用第三方库<sup>15</sup></a></li>
 			
 		
@@ -323,15 +333,19 @@
 			
 		
 			
+				<li><a href="/tags/Android性能优化/" title="Android性能优化">Android性能优化<sup>6</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Android-绘图进阶/" title="Android 绘图进阶">Android 绘图进阶<sup>6</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/OpenCV/" title="OpenCV">OpenCV<sup>6</sup></a></li>
+				<li><a href="/tags/Android-JNI/" title="Android JNI">Android JNI<sup>6</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Android-JNI/" title="Android JNI">Android JNI<sup>6</sup></a></li>
+				<li><a href="/tags/OpenCV/" title="OpenCV">OpenCV<sup>6</sup></a></li>
 			
 		
 			
@@ -343,15 +357,7 @@
 			
 		
 			
-				<li><a href="/tags/Android性能优化/" title="Android性能优化">Android性能优化<sup>4</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/树莓派/" title="树莓派">树莓派<sup>4</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/工具的使用/" title="工具的使用">工具的使用<sup>3</sup></a></li>
 			
 		
 			
@@ -359,19 +365,19 @@
 			
 		
 			
+				<li><a href="/tags/工具的使用/" title="工具的使用">工具的使用<sup>3</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Android质量管理工具/" title="Android质量管理工具">Android质量管理工具<sup>3</sup></a></li>
 			
 		
 			
+				<li><a href="/tags/编程技巧/" title="编程技巧">编程技巧<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Android-事件处理进阶/" title="Android 事件处理进阶">Android 事件处理进阶<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Android-性能优化/" title="Android 性能优化">Android 性能优化<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Git-github/" title="Git &amp;&amp; github">Git &amp;&amp; github<sup>1</sup></a></li>
 			
 		
 			
@@ -430,7 +436,7 @@
   <div class="tagcloudlist">
     <p class="asidetitle">標簽雲</p>
     <div class="tagcloudlist clearfix">
-       <a href="/tags/Android-APK-签名/" style="font-size: 10px;">Android APK 签名</a> <a href="/tags/Android-JNI/" style="font-size: 14px;">Android JNI</a> <a href="/tags/Android-事件处理进阶/" style="font-size: 11px;">Android 事件处理进阶</a> <a href="/tags/Android-动画进阶/" style="font-size: 15px;">Android 动画进阶</a> <a href="/tags/Android-多线程开发/" style="font-size: 10px;">Android 多线程开发</a> <a href="/tags/Android-小经验/" style="font-size: 10px;">Android 小经验</a> <a href="/tags/Android-常用第三方库/" style="font-size: 18px;">Android 常用第三方库</a> <a href="/tags/Android-开发流程/" style="font-size: 10px;">Android 开发流程</a> <a href="/tags/Android-性能优化/" style="font-size: 10px;">Android 性能优化</a> <a href="/tags/Android-绘图进阶/" style="font-size: 14px;">Android 绘图进阶</a> <a href="/tags/Android-自动化测试/" style="font-size: 14px;">Android 自动化测试</a> <a href="/tags/Android-自定义View进阶/" style="font-size: 13px;">Android 自定义View进阶</a> <a href="/tags/Android-设计模式/" style="font-size: 20px;">Android 设计模式</a> <a href="/tags/Android其他/" style="font-size: 10px;">Android其他</a> <a href="/tags/Android基础/" style="font-size: 19px;">Android基础</a> <a href="/tags/Android开发流程/" style="font-size: 10px;">Android开发流程</a> <a href="/tags/Android性能优化/" style="font-size: 13px;">Android性能优化</a> <a href="/tags/Android混淆技术/" style="font-size: 10px;">Android混淆技术</a> <a href="/tags/Android质量管理工具/" style="font-size: 12px;">Android质量管理工具</a> <a href="/tags/Android逆向工程/" style="font-size: 10px;">Android逆向工程</a> <a href="/tags/Git-github/" style="font-size: 10px;">Git && github</a> <a href="/tags/Hexo-使用/" style="font-size: 17px;">Hexo 使用</a> <a href="/tags/Linux-使用/" style="font-size: 10px;">Linux 使用</a> <a href="/tags/OpenCV/" style="font-size: 14px;">OpenCV</a> <a href="/tags/ROS/" style="font-size: 16px;">ROS</a> <a href="/tags/工作总结/" style="font-size: 10px;">工作总结</a> <a href="/tags/工具的使用/" style="font-size: 12px;">工具的使用</a> <a href="/tags/树莓派/" style="font-size: 13px;">树莓派</a> <a href="/tags/网站收藏/" style="font-size: 10px;">网站收藏</a> <a href="/tags/重要控件/" style="font-size: 12px;">重要控件</a>
+       <a href="/tags/AOSP-源码/" style="font-size: 18.18px;">AOSP 源码</a> <a href="/tags/Android-APK-签名/" style="font-size: 10px;">Android APK 签名</a> <a href="/tags/Android-JNI/" style="font-size: 13.64px;">Android JNI</a> <a href="/tags/Android-事件处理进阶/" style="font-size: 10.91px;">Android 事件处理进阶</a> <a href="/tags/Android-动画进阶/" style="font-size: 14.55px;">Android 动画进阶</a> <a href="/tags/Android-多线程开发/" style="font-size: 10px;">Android 多线程开发</a> <a href="/tags/Android-小经验/" style="font-size: 10px;">Android 小经验</a> <a href="/tags/Android-常用第三方库/" style="font-size: 17.27px;">Android 常用第三方库</a> <a href="/tags/Android-开发流程/" style="font-size: 10px;">Android 开发流程</a> <a href="/tags/Android-绘图进阶/" style="font-size: 13.64px;">Android 绘图进阶</a> <a href="/tags/Android-自动化测试/" style="font-size: 13.64px;">Android 自动化测试</a> <a href="/tags/Android-自定义View进阶/" style="font-size: 12.73px;">Android 自定义View进阶</a> <a href="/tags/Android-设计模式/" style="font-size: 20px;">Android 设计模式</a> <a href="/tags/Android其他/" style="font-size: 10px;">Android其他</a> <a href="/tags/Android基础/" style="font-size: 19.09px;">Android基础</a> <a href="/tags/Android开发流程/" style="font-size: 10px;">Android开发流程</a> <a href="/tags/Android性能优化/" style="font-size: 13.64px;">Android性能优化</a> <a href="/tags/Android混淆技术/" style="font-size: 10px;">Android混淆技术</a> <a href="/tags/Android质量管理工具/" style="font-size: 11.82px;">Android质量管理工具</a> <a href="/tags/Android逆向工程/" style="font-size: 10px;">Android逆向工程</a> <a href="/tags/Git-github/" style="font-size: 10px;">Git && github</a> <a href="/tags/Hexo-使用/" style="font-size: 16.36px;">Hexo 使用</a> <a href="/tags/Linux-使用/" style="font-size: 10px;">Linux 使用</a> <a href="/tags/OpenCV/" style="font-size: 13.64px;">OpenCV</a> <a href="/tags/ROS/" style="font-size: 15.45px;">ROS</a> <a href="/tags/工作总结/" style="font-size: 10px;">工作总结</a> <a href="/tags/工具的使用/" style="font-size: 11.82px;">工具的使用</a> <a href="/tags/杂类/" style="font-size: 10px;">杂类</a> <a href="/tags/树莓派/" style="font-size: 12.73px;">树莓派</a> <a href="/tags/编程技巧/" style="font-size: 10.91px;">编程技巧</a> <a href="/tags/网站收藏/" style="font-size: 10px;">网站收藏</a> <a href="/tags/重要控件/" style="font-size: 11.82px;">重要控件</a>
     </div>
   </div>
 
