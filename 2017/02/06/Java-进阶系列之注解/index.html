@@ -11,16 +11,28 @@
     
 
     
-    <meta name="description" content="Android | 全栈工程师">
+    <meta name="description" content="&amp;#x672C;&amp;#x7AE0;&amp;#x77E5;&amp;#x8BC6;&amp;#x70B9;
+Java&amp;#x4E2D;&amp;#x9ED8;&amp;#x8BA4;&amp;#x7684;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x81EA;&amp;#x5B9A;&amp;#x4E49;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x6CE8;&amp;#x89E3;&amp;#x89E3;&amp;#x6790;&amp;#x5668;&amp;#x5B9E;&amp;#x73B0;
+Android&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java 进阶系列之注解">
 <meta property="og:url" content="http://yoursite.com/2017/02/06/Java-进阶系列之注解/index.html">
 <meta property="og:site_name" content="Edgar's Blog">
-<meta property="og:description" content="Android | 全栈工程师">
-<meta property="og:updated_time" content="2017-02-06T13:06:32.000Z">
+<meta property="og:description" content="&amp;#x672C;&amp;#x7AE0;&amp;#x77E5;&amp;#x8BC6;&amp;#x70B9;
+Java&amp;#x4E2D;&amp;#x9ED8;&amp;#x8BA4;&amp;#x7684;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x81EA;&amp;#x5B9A;&amp;#x4E49;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x6CE8;&amp;#x89E3;&amp;#x89E3;&amp;#x6790;&amp;#x5668;&amp;#x5B9E;&amp;#x73B0;
+Android&amp;">
+<meta property="og:updated_time" content="2017-02-07T13:53:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java 进阶系列之注解">
-<meta name="twitter:description" content="Android | 全栈工程师">
+<meta name="twitter:description" content="&amp;#x672C;&amp;#x7AE0;&amp;#x77E5;&amp;#x8BC6;&amp;#x70B9;
+Java&amp;#x4E2D;&amp;#x9ED8;&amp;#x8BA4;&amp;#x7684;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x81EA;&amp;#x5B9A;&amp;#x4E49;&amp;#x6CE8;&amp;#x89E3;
+&amp;#x6CE8;&amp;#x89E3;&amp;#x89E3;&amp;#x6790;&amp;#x5668;&amp;#x5B9E;&amp;#x73B0;
+Android&amp;">
 
     
     <link rel="alternative" href="atom.xml" title="Edgar&#39;s Blog" type="application/atom+xml">
@@ -92,11 +104,18 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目錄</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#本章知识点"><span class="toc-number">1.</span> <span class="toc-text">本章知识点</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#Java中默认的注解"><span class="toc-number">1.1.</span> <span class="toc-text">Java中默认的注解</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#自定义注解"><span class="toc-number">1.2.</span> <span class="toc-text">自定义注解</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#注解解析器实现"><span class="toc-number">1.3.</span> <span class="toc-text">注解解析器实现</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#Android中的专用注解"><span class="toc-number">1.4.</span> <span class="toc-text">Android中的专用注解</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		  
+		<ul>
+<li><h5 id="&#x672C;&#x7AE0;&#x77E5;&#x8BC6;&#x70B9;"><a href="#&#x672C;&#x7AE0;&#x77E5;&#x8BC6;&#x70B9;" class="headerlink" title="&#x672C;&#x7AE0;&#x77E5;&#x8BC6;&#x70B9;"></a>&#x672C;&#x7AE0;&#x77E5;&#x8BC6;&#x70B9;</h5></li>
+<li><h6 id="Java&#x4E2D;&#x9ED8;&#x8BA4;&#x7684;&#x6CE8;&#x89E3;"><a href="#Java&#x4E2D;&#x9ED8;&#x8BA4;&#x7684;&#x6CE8;&#x89E3;" class="headerlink" title="Java&#x4E2D;&#x9ED8;&#x8BA4;&#x7684;&#x6CE8;&#x89E3;"></a>Java&#x4E2D;&#x9ED8;&#x8BA4;&#x7684;&#x6CE8;&#x89E3;</h6></li>
+<li><h6 id="&#x81EA;&#x5B9A;&#x4E49;&#x6CE8;&#x89E3;"><a href="#&#x81EA;&#x5B9A;&#x4E49;&#x6CE8;&#x89E3;" class="headerlink" title="&#x81EA;&#x5B9A;&#x4E49;&#x6CE8;&#x89E3;"></a>&#x81EA;&#x5B9A;&#x4E49;&#x6CE8;&#x89E3;</h6></li>
+<li><h6 id="&#x6CE8;&#x89E3;&#x89E3;&#x6790;&#x5668;&#x5B9E;&#x73B0;"><a href="#&#x6CE8;&#x89E3;&#x89E3;&#x6790;&#x5668;&#x5B9E;&#x73B0;" class="headerlink" title="&#x6CE8;&#x89E3;&#x89E3;&#x6790;&#x5668;&#x5B9E;&#x73B0;"></a>&#x6CE8;&#x89E3;&#x89E3;&#x6790;&#x5668;&#x5B9E;&#x73B0;</h6></li>
+<li><h6 id="Android&#x4E2D;&#x7684;&#x4E13;&#x7528;&#x6CE8;&#x89E3;"><a href="#Android&#x4E2D;&#x7684;&#x4E13;&#x7528;&#x6CE8;&#x89E3;" class="headerlink" title="Android&#x4E2D;&#x7684;&#x4E13;&#x7528;&#x6CE8;&#x89E3;"></a>Android&#x4E2D;&#x7684;&#x4E13;&#x7528;&#x6CE8;&#x89E3;</h6></li>
+</ul>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -148,7 +167,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目錄</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#本章知识点"><span class="toc-number">1.</span> <span class="toc-text">本章知识点</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#Java中默认的注解"><span class="toc-number">1.1.</span> <span class="toc-text">Java中默认的注解</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#自定义注解"><span class="toc-number">1.2.</span> <span class="toc-text">自定义注解</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#注解解析器实现"><span class="toc-number">1.3.</span> <span class="toc-text">注解解析器实现</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#Android中的专用注解"><span class="toc-number">1.4.</span> <span class="toc-text">Android中的专用注解</span></a></li></ol></li></ol>
  
   </div>
 
