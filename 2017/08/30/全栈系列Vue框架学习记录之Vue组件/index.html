@@ -1,0 +1,665 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>全栈系列 Vue框架学习记录[二] 组 | Edgar&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Edgar">
+    
+
+    
+    <meta name="description" content="&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;    &amp;lt;title&amp;gt;component1&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;      &amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="全栈系列 Vue框架学习记录[二] 组">
+<meta property="og:url" content="http://yoursite.com/2017/08/30/全栈系列Vue框架学习记录之Vue组件/index.html">
+<meta property="og:site_name" content="Edgar's Blog">
+<meta property="og:description" content="&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;    &amp;lt;title&amp;gt;component1&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;      &amp;">
+<meta property="og:updated_time" content="2017-08-30T18:26:35.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="全栈系列 Vue框架学习记录[二] 组">
+<meta name="twitter:description" content="&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;  &amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;    &amp;lt;title&amp;gt;component1&amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;      &amp;">
+
+    
+    <link rel="alternative" href="atom.xml" title="Edgar&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/unnamed4_n_mSY_icon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/profile.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/profile.png">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Edgar&#39;s Blog">Edgar&#39;s Blog</a></h1>
+				<h2 class="blog-motto">等待执剑少年修炼归来！</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜單">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/08/30/全栈系列Vue框架学习记录之Vue组件/" title="全栈系列 Vue框架学习记录[二] 组" itemprop="url">全栈系列 Vue框架学习记录[二] 组</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Edgar" target="_blank" itemprop="author">Edgar</a>
+		
+  <p class="article-time">
+    <time datetime="2017-08-30T14:22:03.000Z" itemprop="datePublished"> 發表於 2017-08-30</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目錄</strong>
+		
+			
+		
+		</div>
+		
+		<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span>component1<span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">&quot;app&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="title">parent-vue</span>&gt;</span><span class="tag">&lt;/<span class="title">parent-vue</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">&quot;../../libs/vue.js&quot;</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">&quot;./main.js&quot;</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight livescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> childvues = Vue.extend({</span><br><span class="line">  <span class="attribute">template</span>:<span class="string">&apos;&lt;div&gt;This is a childVue&lt;/div&gt;&apos;</span></span><br><span class="line">})</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> parentvue = Vue.extend({</span><br><span class="line">  <span class="attribute">template</span>:<span class="string">&quot;&lt;child-vue&gt;&lt;/child-vue&gt;&quot;</span>,</span><br><span class="line">  <span class="attribute">components</span>:{</span><br><span class="line">    <span class="string">&apos;child-vue&apos;</span>:childvues</span><br><span class="line">  }</span><br><span class="line">})</span><br><span class="line"></span><br><span class="line">Vue.component(<span class="string">&quot;parent-vue&quot;</span>,parentvue)</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue({</span><br><span class="line">  <span class="attribute">el</span>:<span class="string">&quot;<span class="subst">#app</span>&quot;</span></span><br><span class="line">})</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="tag">Vue</span><span class="class">.component</span>(&quot;<span class="tag">parent-vue</span>&quot;,<span class="rules">{</span><br><span class="line">  <span class="rule"><span class="attribute">template</span>:<span class="value"><span class="string">&quot;&lt;child-vue&gt;&lt;/child-vue&gt;&quot;</span>,</span><br><span class="line">  components:{</span><br><span class="line">    <span class="string">&apos;child-vue&apos;</span>:{</span><br><span class="line">      template:<span class="string">&apos;&lt;div&gt;This is a childVue&lt;/div&gt;&apos;</span></span><br><span class="line">    </span></span></span>}</span><br><span class="line">  }</span><br><span class="line">})</span><br><span class="line"></span><br><span class="line"><span class="tag">new</span> <span class="tag">Vue</span>(<span class="rules">{</span><br><span class="line">  <span class="rule"><span class="attribute">el</span>:<span class="value"><span class="string">&quot;#app&quot;</span></span><br><span class="line"></span></span></span>})</span><br></pre></td></tr></table></figure>
+<p>&lt;!DOCTYPE html&gt;</p>
+<html><br>  <head><br>    <meta charset="utf-8"><br>    <title>props</title><br>  </head><br>  <body><br>    <div id="element1"><br>      <ele-component></ele-component><br>    </div><br><br>    <div id="element2"><br>      <ele-component></ele-component><br>    </div><br>    <script src="../../libs/vue.js"></script><br>    <script src="./main.js"></script><br>  </body><br></html>
+
+
+<p>Vue.component(&#x2018;ele-component&#x2019;,{<br>  template:&#x2019;<button v-on:click="doClick">&#x5168;&#x6808;&#x7CFB;&#x5217; Vue&#x6846;&#x67B6;&#x5B66;&#x4E60;&#x8BB0;&#x5F55;[&#x4E8C;] &#x7EC4;</button>&#x2018;,<br>  methods:{<br>    doClick:function()  {<br>      alert(&#x2018;Hello&#x2019;);<br>    }<br>  },<br>  data:function(){<br>    return {<br>      title:&#x201D;&#x70B9;&#x6211;&#xFF0C;&#x70B9;&#x6211;&#x201D;<br>    }<br>  }<br>})</p>
+<p>new Vue({<br>  el:&#x201D;#element1&#x201D;<br>})</p>
+<p>&#x4F20;&#x5165; Vue &#x6784;&#x9020;&#x5668;&#x7684;&#x591A;&#x6570;&#x9009;&#x9879;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x5728; Vue.extend() &#x4E2D;&#xFF0C;&#x4E0D;&#x8FC7;&#x6709;&#x4E24;&#x4E2A;&#x7279;&#x4F8B;&#xFF1A; data &#x548C; el&#x3002;&#x8BD5;&#x60F3;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x7B80;&#x5355;&#x5730;&#x628A;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x4F5C;&#x4E3A; data &#x9009;&#x9879;&#x4F20;&#x7ED9; Vue.extend()&#xFF1A;</p>
+<p>Props<br>&#x4F7F;&#x7528; Props &#x4F20;&#x9012;&#x6570;&#x636E;<br>&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#x662F;&#x5B64;&#x7ACB;&#x7684;&#x3002;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x4E0D;&#x80FD;&#x5E76;&#x4E14;&#x4E0D;&#x5E94;&#x8BE5;&#x5728;&#x5B50;&#x7EC4;&#x4EF6;&#x7684;&#x6A21;&#x677F;&#x5185;&#x76F4;&#x63A5;&#x5F15;&#x7528;&#x7236;&#x7EC4;&#x4EF6;&#x7684;&#x6570;&#x636E;&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; props &#x628A;&#x6570;&#x636E;&#x4F20;&#x7ED9;&#x5B50;&#x7EC4;&#x4EF6;&#x3002;</p>
+<p>&#x201C;prop&#x201D; &#x662F;&#x7EC4;&#x4EF6;&#x6570;&#x636E;&#x7684;&#x4E00;&#x4E2A;&#x5B57;&#x6BB5;&#xFF0C;&#x671F;&#x671B;&#x4ECE;&#x7236;&#x7EC4;&#x4EF6;&#x4F20;&#x4E0B;&#x6765;&#x3002;&#x5B50;&#x7EC4;&#x4EF6;&#x9700;&#x8981;&#x663E;&#x5F0F;&#x5730;&#x7528; props &#x9009;&#x9879; &#x58F0;&#x660E; props&#xFF1A;<br>&lt;!DOCTYPE html&gt;</p>
+<html><br>  <head><br>    <meta charset="utf-8"><br>    <title>props</title><br>  </head><br>  <body><br>    <div id="app"><br>        <el-compo message="jimmy"></el-compo><br>    </div><br>    <script src="../../libs/vue.js"></script><br>    <script src="./main.js"></script><br>  </body><br></html>
+
+<p>Vue.component(&#x2018;el-compo&#x2019;,{<br>  template:&#x201D;<div></div>&#x201C;,<br>  props:[&#x2018;message&#x2019;]<br>})</p>
+<p>new Vue({<br>  el:&#x201D;#app&#x201D;<br>})</p>
+<p>HTML &#x7279;&#x6027;&#x4E0D;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#x3002;&#x540D;&#x5B57;&#x5F62;&#x5F0F;&#x4E3A; camelCase &#x7684; prop &#x7528;&#x4F5C;&#x7279;&#x6027;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x8F6C;&#x4E3A; kebab-case&#xFF08;&#x77ED;&#x6A2A;&#x7EBF;&#x9694;&#x5F00;&#xFF09;&#xFF1A;<br>Vue.component(&#x2018;child&#x2019;, {<br> // camelCase in JavaScript<br> props: [&#x2018;myMessage&#x2019;],<br> template: &#x2018;<span></span>&#x2018;<br>})</p>
+<!-- kebab-case in HTML -->
+<child my-message="hello!"></child>
+
+
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html><br>  <head><br>    <meta charset="utf-8"><br>    <title>props</title><br>  </head><br>  <body><br>    <div id="app"><br>        <input type="text" v-model="message"><br>        <el-compo v-bind:message="message"></el-compo><br>    </div><br>    <script src="../../libs/vue.js"></script><br>    <script src="./main.js"></script><br>  </body><br></html>
+
+
+<p>Vue.component(&#x2018;el-compo&#x2019;,{<br>  template:&#x201D;<div></div>&#x201C;,<br>  props:[&#x2018;message&#x2019;]<br>})</p>
+<p>new Vue({<br>  el:&#x201D;#app&#x201D;,<br>  data:{<br>    message:&#x201D;tbfungeek&#x201D;<br>  }<br>})</p>
+<p>Prop &#x9A8C;&#x8BC1;<br>&#x7EC4;&#x4EF6;&#x53EF;&#x4EE5;&#x4E3A; props &#x6307;&#x5B9A;&#x9A8C;&#x8BC1;&#x8981;&#x6C42;&#x3002;&#x5F53;&#x7EC4;&#x4EF6;&#x7ED9;&#x5176;&#x4ED6;&#x4EBA;&#x4F7F;&#x7528;&#x65F6;&#x8FD9;&#x5F88;&#x6709;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x9A8C;&#x8BC1;&#x8981;&#x6C42;&#x6784;&#x6210;&#x4E86;&#x7EC4;&#x4EF6;&#x7684; API&#xFF0C;&#x786E;&#x4FDD;&#x5176;&#x4ED6;&#x4EBA;&#x6B63;&#x786E;&#x5730;&#x4F7F;&#x7528;&#x7EC4;&#x4EF6;&#x3002;&#x6B64;&#x65F6; props &#x7684;&#x503C;&#x662F;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x5305;&#x542B;&#x9A8C;&#x8BC1;&#x8981;&#x6C42;&#xFF1A;</p>
+<p>Vue.component(&#x2018;example&#x2019;, {<br>    props: {<br>        // &#x57FA;&#x7840;&#x7C7B;&#x578B;&#x68C0;&#x6D4B; &#xFF08;<code>null</code> &#x610F;&#x601D;&#x662F;&#x4EFB;&#x4F55;&#x7C7B;&#x578B;&#x90FD;&#x53EF;&#x4EE5;&#xFF09;<br>        propA: Number,<br>        // &#x591A;&#x79CD;&#x7C7B;&#x578B; (1.0.21+)<br>        propM: [String, Number],<br>        // &#x5FC5;&#x9700;&#x4E14;&#x662F;&#x5B57;&#x7B26;&#x4E32;<br>        propB: {<br>            type: String,<br>            required: true<br>        },<br>        //&#x6570;&#x5B57;&#xFF0C;&#x6709;&#x9ED8;&#x8BA4;&#x503C;<br>        propC: {<br>            type: Number,<br>            default: 100<br>        },<br>        // &#x5BF9;&#x8C61;/&#x6570;&#x7EC4;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x5E94;&#x5F53;&#x7531;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x8FD4;&#x56DE;<br>        propD: {<br>            type: Object,<br>            default: function () {<br>                return { msg: &#x2018;hello&#x2019; }<br>            }<br>        },<br>        // &#x6307;&#x5B9A;&#x8FD9;&#x4E2A; prop &#x4E3A;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;<br>        // &#x5982;&#x679C;&#x7ED1;&#x5B9A;&#x7C7B;&#x578B;&#x4E0D;&#x5BF9;&#x5C06;&#x629B;&#x51FA;&#x4E00;&#x6761;&#x8B66;&#x544A;<br>        propE: {<br>            twoWay: true<br>        },<br>        // &#x81EA;&#x5B9A;&#x4E49;&#x9A8C;&#x8BC1;&#x51FD;&#x6570;<br>        propF: {<br>            validator: function (value) {<br>                return value &gt; 10<br>            }<br>        },<br>        // &#x8F6C;&#x6362;&#x51FD;&#x6570;&#xFF08;1.0.12 &#x65B0;&#x589E;&#xFF09;<br>        // &#x5728;&#x8BBE;&#x7F6E;&#x503C;&#x4E4B;&#x524D;&#x8F6C;&#x6362;&#x503C;<br>        propG: {<br>            coerce: function (val) {<br>                return val + &#x2018;&#x2019; // &#x5C06;&#x503C;&#x8F6C;&#x6362;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;<br>            }<br>        },<br>        propH: {<br>            coerce: function (val) {<br>                return JSON.parse(val) // &#x5C06; JSON &#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6362;&#x4E3A;&#x5BF9;&#x8C61;<br>            }<br>        }<br> }<br>})<br>type &#x53EF;&#x4EE5;&#x662F;&#x4E0B;&#x9762;&#x539F;&#x751F;&#x6784;&#x9020;&#x5668;&#xFF1A;<br> &#x2022;String<br> &#x2022;Number<br> &#x2022;Boolean<br> &#x2022;Function<br> &#x2022;Object<br> &#x2022;Array<br>type &#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x6784;&#x9020;&#x5668;&#xFF0C;&#x4F7F;&#x7528; instanceof &#x68C0;&#x6D4B;&#x3002;<br>&#x5F53; prop &#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#x4E86;&#xFF0C;Vue &#x5C06;&#x62D2;&#x7EDD;&#x5728;&#x5B50;&#x7EC4;&#x4EF6;&#x4E0A;&#x8BBE;&#x7F6E;&#x6B64;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x5F00;&#x53D1;&#x7248;&#x672C;&#x4F1A;&#x629B;&#x51FA;&#x4E00;&#x6761;&#x8B66;&#x544A;&#x3002;</p>
+<p>new Vue({<br>  el:&#x201D;#element1&#x201D;,<br>  components:{<br>    &#x2018;parent-vue&#x2019;:{<br>      template:&#x2019;<child-vue v-on:emit_event="onReceiveMsg"></child-vue>&#x2018;,<br>      methods:{<br>        onReceiveMsg:function(data) {<br>          alert(data.b);<br>        }<br>      },<br>      components:{<br>        &#x2018;child-vue&#x2019;:{<br>            template:&#x2019;<button v-on:click="onClick">&#x70B9;&#x6211;</button>&#x2018;,<br>            methods:{<br>              onClick:function(){<br>                this.$emit(&#x201C;emit_event&#x201D;,{a:1,b:2,c:3});<br>              }<br>            }<br>        }<br>      }<br>    }<br>  }<br>})</p>
+<p>&#x7EC4;&#x4EF6;&#x5199;&#x6CD5;: &#x5355;&#x6587;&#x4EF6;&#x5F62;&#x5F0F;</p>
+<p>&#x5728;&#x5178;&#x578B;&#x7684; Vue.js &#x9879;&#x76EE;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x628A;&#x754C;&#x9762;&#x62C6;&#x5206;&#x4E3A;&#x591A;&#x4E2A;&#x5C0F;&#x7EC4;&#x4EF6;&#xFF0C;&#x6BCF;&#x4E2A;&#x7EC4;&#x4EF6;&#x5728;&#x540C;&#x4E00;&#x5730;&#x65B9;&#x5C01;&#x88C5;&#x5B83;&#x7684; CSS &#x6837;&#x5F0F;&#xFF0C;&#x6A21;&#x677F;&#x548C; JavaScript &#x5B9A;&#x4E49;&#xFF0C;&#x8FD9;&#x4E48;&#x505A;&#x6BD4;&#x8F83;&#x597D;&#x3002;&#x5982;&#x4E0A;&#x6240;&#x8FF0;&#xFF0C;&#x4F7F;&#x7528; Webpack &#x6216; Browserify &#x4EE5;&#x53CA;&#x5408;&#x9002;&#x7684;&#x6E90;&#x7801;&#x8F6C;&#x6362;&#x5668;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x5199;&#x7EC4;&#x4EF6;&#xFF1A;</p>
+<p>&#x4F5C;&#x8005;&#xFF1A;&#x989C;&#x537F;&#x4ECA;&#x5929;Coding&#x4E86;&#x5417;<br>&#x94FE;&#x63A5;&#xFF1A;<a href="http://www.jianshu.com/p/e731d9ad4ed1" target="_blank" rel="external">http://www.jianshu.com/p/e731d9ad4ed1</a><br>&#x4F86;&#x6E90;&#xFF1A;&#x7B80;&#x4E66;<br>&#x8457;&#x4F5C;&#x6743;&#x5F52;&#x4F5C;&#x8005;&#x6240;&#x6709;&#x3002;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x8054;&#x7CFB;&#x4F5C;&#x8005;&#x83B7;&#x5F97;&#x6388;&#x6743;&#xFF0C;&#x975E;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2017/12/15/iOS-学习记录-一-图解生命周期/" title="iOS 学习记录[一] 图解生命周期">
+  <span>
+  iOS 学习记录[一] 图解生命周期</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2017/08/29/全栈系列Vue框架学习记录/"  title="全栈系列 Vue框架学习记录[一]">
+ <span>全栈系列 Vue框架学习记录[一]
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2017/08/30/全栈系列Vue框架学习记录之Vue组件/" data-title="全栈系列 Vue框架学习记录[二] 组" data-url="http://yoursite.com/2017/08/30/全栈系列Vue框架学习记录之Vue组件/"></div>
+</section>
+
+
+<section id="comments" class="comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目錄</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隱藏側邊欄"></a></div>
+<aside class="clearfix">
+<div id="authorInfo">
+	
+		<div class="author-img"></div>		
+	
+	<div class="social-info" class="clearfix">
+		
+		
+		<a href="https://github.com/tbfungeek" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<a href="mailto:tbfungeek@163.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+
+	</div>
+</div>
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分類</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Android-小经验/" title="Android 小经验">Android 小经验<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Android-源码分析/" title="Android 源码分析">Android 源码分析<sup>21</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Android其他/" title="Android其他">Android其他<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Android初步/" title="Android初步">Android初步<sup>21</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Android进阶/" title="Android进阶">Android进阶<sup>100</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Hexo-使用/" title="Hexo 使用">Hexo 使用<sup>10</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/JavaScript理论/" title="JavaScript理论">JavaScript理论<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/OpenCV/" title="OpenCV">OpenCV<sup>6</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/ROS/" title="ROS">ROS<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/个人收藏/" title="个人收藏">个人收藏<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/其他/" title="其他">其他<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/叨叨系列/" title="叨叨系列">叨叨系列<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/工作总结/" title="工作总结">工作总结<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/开源代码分析/" title="开源代码分析">开源代码分析<sup>2</sup></a></li>
+		  
+		
+		  
+		
+		  
+			<li><a href="/categories/树莓派/" title="树莓派">树莓派<sup>4</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/版本控制/" title="版本控制">版本控制<sup>1</sup></a></li>
+		  
+		
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">標簽</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/Android-设计模式/" title="Android 设计模式">Android 设计模式<sup>29</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android基础/" title="Android基础">Android基础<sup>21</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/AOSP-源码/" title="AOSP 源码">AOSP 源码<sup>17</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-常用第三方库/" title="Android 常用第三方库">Android 常用第三方库<sup>15</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Hexo-使用/" title="Hexo 使用">Hexo 使用<sup>10</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/ROS/" title="ROS">ROS<sup>9</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-动画进阶/" title="Android 动画进阶">Android 动画进阶<sup>8</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android性能优化/" title="Android性能优化">Android性能优化<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-自动化测试/" title="Android 自动化测试">Android 自动化测试<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/OpenCV/" title="OpenCV">OpenCV<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-绘图进阶/" title="Android 绘图进阶">Android 绘图进阶<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-JNI/" title="Android JNI">Android JNI<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-自定义View进阶/" title="Android 自定义View进阶">Android 自定义View进阶<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/树莓派/" title="树莓派">树莓派<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-开源源码/" title="Android 开源源码">Android 开源源码<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/重要控件/" title="重要控件">重要控件<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/工具的使用/" title="工具的使用">工具的使用<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android质量管理工具/" title="Android质量管理工具">Android质量管理工具<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android-事件处理进阶/" title="Android 事件处理进阶">Android 事件处理进阶<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/开源代码分析/" title="开源代码分析">开源代码分析<sup>2</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">聯結</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="https://hexo.io" target="_blank" title="Hexo">Hexo</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="https://pages.github.com/" target="_blank" title="GitHub">GitHub</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://pf18.github.io/" target="_blank" title="PF18">PF18</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://toutiao.io/" target="_blank" title="开发者头条">开发者头条</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.jcodecraeer.com/" target="_blank" title="泡在网上的日子">泡在网上的日子</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="atom.xml" target="_blank" title="rss">RSS 訂閱</a>
+</div>
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">標簽雲</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/AOSP-源码/" style="font-size: 18.18px;">AOSP 源码</a> <a href="/tags/Android-APK-签名/" style="font-size: 10px;">Android APK 签名</a> <a href="/tags/Android-JNI/" style="font-size: 13.64px;">Android JNI</a> <a href="/tags/Android-事件处理进阶/" style="font-size: 10.91px;">Android 事件处理进阶</a> <a href="/tags/Android-动画进阶/" style="font-size: 14.55px;">Android 动画进阶</a> <a href="/tags/Android-多线程开发/" style="font-size: 10px;">Android 多线程开发</a> <a href="/tags/Android-小经验/" style="font-size: 10px;">Android 小经验</a> <a href="/tags/Android-常用第三方库/" style="font-size: 17.27px;">Android 常用第三方库</a> <a href="/tags/Android-开发流程/" style="font-size: 10px;">Android 开发流程</a> <a href="/tags/Android-开源源码/" style="font-size: 12.73px;">Android 开源源码</a> <a href="/tags/Android-绘图进阶/" style="font-size: 13.64px;">Android 绘图进阶</a> <a href="/tags/Android-自动化测试/" style="font-size: 13.64px;">Android 自动化测试</a> <a href="/tags/Android-自定义View进阶/" style="font-size: 12.73px;">Android 自定义View进阶</a> <a href="/tags/Android-设计模式/" style="font-size: 20px;">Android 设计模式</a> <a href="/tags/Android其他/" style="font-size: 10px;">Android其他</a> <a href="/tags/Android基础/" style="font-size: 19.09px;">Android基础</a> <a href="/tags/Android开发流程/" style="font-size: 10px;">Android开发流程</a> <a href="/tags/Android性能优化/" style="font-size: 13.64px;">Android性能优化</a> <a href="/tags/Android混淆技术/" style="font-size: 10px;">Android混淆技术</a> <a href="/tags/Android质量管理工具/" style="font-size: 11.82px;">Android质量管理工具</a> <a href="/tags/Android逆向工程/" style="font-size: 10px;">Android逆向工程</a> <a href="/tags/Git-github/" style="font-size: 10px;">Git && github</a> <a href="/tags/Hexo-使用/" style="font-size: 16.36px;">Hexo 使用</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Linux-使用/" style="font-size: 10px;">Linux 使用</a> <a href="/tags/OpenCV/" style="font-size: 13.64px;">OpenCV</a> <a href="/tags/ROS/" style="font-size: 15.45px;">ROS</a> <a href="/tags/iOS-基础/" style="font-size: 10px;">iOS 基础</a> <a href="/tags/叨叨系列/" style="font-size: 10px;">叨叨系列</a> <a href="/tags/工作总结/" style="font-size: 10px;">工作总结</a> <a href="/tags/工具的使用/" style="font-size: 11.82px;">工具的使用</a> <a href="/tags/开源代码分析/" style="font-size: 10.91px;">开源代码分析</a> <a href="/tags/杂类/" style="font-size: 10px;">杂类</a> <a href="/tags/树莓派/" style="font-size: 12.73px;">树莓派</a> <a href="/tags/编程技巧/" style="font-size: 10.91px;">编程技巧</a> <a href="/tags/网站收藏/" style="font-size: 10px;">网站收藏</a> <a href="/tags/重要控件/" style="font-size: 11.82px;">重要控件</a>
+    </div>
+  </div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+		
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/hsihohuang/kiddochan" target="_blank" title="Kiddochan">Kiddochan</a> © 2017 
+		
+		<a href="/about" target="_blank" title="Edgar">Edgar</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"tbfungeek"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+<script type="text/javascript">
+
+var disqus_shortname = 'tbfungeek';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?7c9443b0374f1cf6b1dbb5ab84d939cb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回頂部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
