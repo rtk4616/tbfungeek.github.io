@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2016/04/18/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E4%BA%8C-%E9%80%90%E5%B8%A7%E5%8A%A8%E7%94%BB/</loc>
-    <lastmod>2017-12-16T03:50:55.074Z</lastmod>
+    <lastmod>2017-12-16T04:06:01.468Z</lastmod>
     <data>
         <display>
         <title>Android 进阶之动画 二 逐帧动画</title>
@@ -75,51 +75,6 @@
              
               <breadCrumb title="树莓派" url="http://yoursite.com/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/08/30/%E5%85%A8%E6%A0%88%E7%B3%BB%E5%88%97Vue%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B9%8BVue%E7%BB%84%E4%BB%B6/</loc>
-    <lastmod>2017-08-30T18:26:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>全栈系列 Vue框架学习记录[二] 组</title>
-        <pubTime>2017-08-30T14:22:03.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/08/29/%E5%85%A8%E6%A0%88%E7%B3%BB%E5%88%97Vue%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2017-08-30T14:20:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>全栈系列 Vue框架学习记录[一]</title>
-        <pubTime>2017-08-29T14:51:36.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/08/22/%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BGson/</loc>
-    <lastmod>2017-08-22T15:50:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>开源代码分析之Gson</title>
-        <pubTime>2017-08-22T13:16:32.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
@@ -457,12 +412,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/31/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8EStagefright%E7%9A%84MediaPlayer%E6%92%AD%E6%94%BE%E6%A1%86%E6%9E%B6-2/</loc>
+    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BHandler-MessageQueue-Looper/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android 源码分析之基于Stagefright的MediaPlayer播放框架[3]</title>
-        <pubTime>2016-07-31T13:54:41.000Z</pubTime>
+        <title>Android 源码分析之Handler MessageQueue Looper</title>
+        <pubTime>2016-07-28T03:19:57.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -477,12 +432,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/08/03/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90Android%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B/</loc>
+    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BMediaScanner/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android 源码分析Android系统启动流程</title>
-        <pubTime>2016-08-03T12:44:51.000Z</pubTime>
+        <title>Android-源码分析之MediaScanner[1]</title>
+        <pubTime>2016-07-28T04:37:45.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -577,12 +532,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BHandlerThread/</loc>
+    <loc>http://yoursite.com/2016/07/31/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8EStagefright%E7%9A%84MediaPlayer%E6%92%AD%E6%94%BE%E6%A1%86%E6%9E%B6-2/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android-源码分析之HandlerThread</title>
-        <pubTime>2016-07-28T03:55:15.000Z</pubTime>
+        <title>Android 源码分析之基于Stagefright的MediaPlayer播放框架[3]</title>
+        <pubTime>2016-07-31T13:54:41.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -617,12 +572,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BHandler-MessageQueue-Looper/</loc>
+    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84RTSP%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android 源码分析之Handler MessageQueue Looper</title>
-        <pubTime>2016-07-28T03:19:57.000Z</pubTime>
+        <title>Android 源码分析之基于NuPlayer的RTSP流媒体协议</title>
+        <pubTime>2016-08-02T14:58:12.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -637,12 +592,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84RTSP%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
+    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BHandlerThread/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android 源码分析之基于NuPlayer的RTSP流媒体协议</title>
-        <pubTime>2016-08-02T14:58:12.000Z</pubTime>
+        <title>Android-源码分析之HandlerThread</title>
+        <pubTime>2016-07-28T03:55:15.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -650,6 +605,66 @@
            
              
               <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84HLS%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 源码分析之基于NuPlayer的HLS流媒体协议</title>
+        <pubTime>2016-08-02T14:58:01.000Z</pubTime>
+        
+        <tag>AOSP 源码</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/07/26/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%BD%AF%E5%BC%95%E7%94%A8%E5%92%8C%E5%BC%B1%E5%BC%95%E7%94%A8/</loc>
+    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之软引用和弱引用</title>
+        <pubTime>2016-07-26T02:56:36.000Z</pubTime>
+        
+        <tag>编程技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/07/25/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%8E%A8%E5%87%BA%E5%BD%93%E5%89%8D%E5%BA%94%E7%94%A8%E7%9A%84%E6%96%B9%E5%BC%8F/</loc>
+    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android-进阶之退出当前应用的方式</title>
+        <pubTime>2016-07-25T02:26:13.000Z</pubTime>
+        
+        <tag>编程技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
           
         </display>
     </data>
@@ -697,12 +712,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BMediaScanner/</loc>
+    <loc>http://yoursite.com/2016/08/03/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90Android%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
-        <title>Android-源码分析之MediaScanner[1]</title>
-        <pubTime>2016-07-28T04:37:45.000Z</pubTime>
+        <title>Android 源码分析Android系统启动流程</title>
+        <pubTime>2016-08-03T12:44:51.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -710,66 +725,6 @@
            
              
               <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/07/26/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%BD%AF%E5%BC%95%E7%94%A8%E5%92%8C%E5%BC%B1%E5%BC%95%E7%94%A8/</loc>
-    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之软引用和弱引用</title>
-        <pubTime>2016-07-26T02:56:36.000Z</pubTime>
-        
-        <tag>编程技巧</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84HLS%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 源码分析之基于NuPlayer的HLS流媒体协议</title>
-        <pubTime>2016-08-02T14:58:01.000Z</pubTime>
-        
-        <tag>AOSP 源码</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/07/25/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%8E%A8%E5%87%BA%E5%BD%93%E5%89%8D%E5%BA%94%E7%94%A8%E7%9A%84%E6%96%B9%E5%BC%8F/</loc>
-    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android-进阶之退出当前应用的方式</title>
-        <pubTime>2016-07-25T02:26:13.000Z</pubTime>
-        
-        <tag>编程技巧</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
           
         </display>
     </data>
@@ -1052,14 +1007,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/06/29/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-Junit/</loc>
+    <loc>http://yoursite.com/2016/06/07/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D-butterknife/</loc>
     <lastmod>2016-07-18T22:11:20.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之自动化测试 Junit</title>
-        <pubTime>2016-06-29T13:31:59.000Z</pubTime>
+        <title>Android 进阶之第三方库的介绍 butterknife</title>
+        <pubTime>2016-06-07T14:54:46.000Z</pubTime>
         
-        <tag>Android 自动化测试</tag>
+        <tag>Android 常用第三方库</tag>
          
          
            
@@ -1652,14 +1607,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/06/07/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D-butterknife/</loc>
+    <loc>http://yoursite.com/2016/06/27/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7Travis-CI/</loc>
     <lastmod>2016-07-18T22:11:20.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之第三方库的介绍 butterknife</title>
-        <pubTime>2016-06-07T14:54:46.000Z</pubTime>
+        <title>Android 进阶之自动化构建工具Travis CI</title>
+        <pubTime>2016-06-27T13:47:06.000Z</pubTime>
         
-        <tag>Android 常用第三方库</tag>
+        <tag>Android 开发流程</tag>
          
          
            
@@ -1672,14 +1627,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/06/27/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7Travis-CI/</loc>
+    <loc>http://yoursite.com/2016/06/29/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-Junit/</loc>
     <lastmod>2016-07-18T22:11:20.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之自动化构建工具Travis CI</title>
-        <pubTime>2016-06-27T13:47:06.000Z</pubTime>
+        <title>Android 进阶之自动化测试 Junit</title>
+        <pubTime>2016-06-29T13:31:59.000Z</pubTime>
         
-        <tag>Android 开发流程</tag>
+        <tag>Android 自动化测试</tag>
          
          
            
@@ -1892,26 +1847,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-RecycleView/</loc>
-    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之重要的控件 RecycleView</title>
-        <pubTime>2016-05-30T12:16:26.000Z</pubTime>
-        
-        <tag>重要控件</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
@@ -1940,6 +1875,26 @@
         <pubTime>2016-05-10T13:32:19.000Z</pubTime>
         
         <tag>Android 设计模式</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/05/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-RecycleView/</loc>
+    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之重要的控件 RecycleView</title>
+        <pubTime>2016-05-30T12:16:26.000Z</pubTime>
+        
+        <tag>重要控件</tag>
          
          
            
