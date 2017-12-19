@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/12/19/iOS-%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93-%E4%B8%80-%E5%9B%BE%E8%A7%A3iOS%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2017-12-19T14:06:48.191Z</lastmod>
+    <data>
+        <display>
+        <title>iOS 直播技术总结[一] 图解iOS移动端直播技术框架</title>
+        <pubTime>2017-12-19T14:01:30.000Z</pubTime>
+        
+        <tag>直播</tag>
+         
+         
+           
+             
+              <breadCrumb title="直播" url="http://yoursite.com/categories/%E7%9B%B4%E6%92%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/12/19/iOS-%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93-%E4%BA%8C-%E5%9B%BE%E8%A7%A3CDN%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2017-12-19T14:06:48.191Z</lastmod>
+    <data>
+        <display>
+        <title>iOS 直播技术总结[二] 图解CDN架构</title>
+        <pubTime>2017-12-19T14:04:51.000Z</pubTime>
+        
+        <tag>直播</tag>
+         
+         
+           
+             
+              <breadCrumb title="直播" url="http://yoursite.com/categories/%E7%9B%B4%E6%92%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/07/21/%E9%82%A3%E4%B8%80%E5%B9%B4%E6%88%90%E9%95%BF%E6%98%AF%E8%82%86%E6%97%A0%E5%BF%8C%E6%83%AE%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B%E6%83%85-%E8%80%8C%E5%A6%82%E4%BB%8A%E6%88%90%E6%89%8D%E7%9D%80%E7%97%9B%E5%B9%B6%E5%BF%AB%E4%B9%90%E7%9D%80/</loc>
     <lastmod>2017-12-19T13:06:51.937Z</lastmod>
     <data>
@@ -667,12 +707,52 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/07/25/Android%E8%BF%9B%E9%98%B6%E4%B9%8BAssets-%E7%9B%AE%E5%BD%95%E4%B8%8Eres%E7%9B%AE%E5%BD%95%E7%9A%84%E4%BD%BF%E7%94%A8%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android-进阶之Assets 目录与res目录的使用的区别</title>
+        <pubTime>2016-07-25T02:52:26.000Z</pubTime>
+        
+        <tag>杂类</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BAsyncTask/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
         <title>Android-源码分析之AsyncTask</title>
         <pubTime>2016-07-28T04:28:09.000Z</pubTime>
+        
+        <tag>AOSP 源码</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84HLS%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 源码分析之基于NuPlayer的HLS流媒体协议</title>
+        <pubTime>2016-08-02T14:58:01.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -707,52 +787,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/25/Android%E8%BF%9B%E9%98%B6%E4%B9%8BAssets-%E7%9B%AE%E5%BD%95%E4%B8%8Eres%E7%9B%AE%E5%BD%95%E7%9A%84%E4%BD%BF%E7%94%A8%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android-进阶之Assets 目录与res目录的使用的区别</title>
-        <pubTime>2016-07-25T02:52:26.000Z</pubTime>
-        
-        <tag>杂类</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/07/28/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B9%8BHandler-MessageQueue-Looper/</loc>
     <lastmod>2016-08-05T23:55:00.000Z</lastmod>
     <data>
         <display>
         <title>Android 源码分析之Handler MessageQueue Looper</title>
         <pubTime>2016-07-28T03:19:57.000Z</pubTime>
-        
-        <tag>AOSP 源码</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android 源码分析" url="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/08/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E5%9F%BA%E4%BA%8ENuPlayer%E7%9A%84HLS%E6%B5%81%E5%AA%92%E4%BD%93%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2016-08-05T23:55:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 源码分析之基于NuPlayer的HLS流媒体协议</title>
-        <pubTime>2016-08-02T14:58:01.000Z</pubTime>
         
         <tag>AOSP 源码</tag>
          
@@ -1307,14 +1347,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/06/07/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D-butterknife/</loc>
+    <loc>http://yoursite.com/2016/06/27/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7Travis-CI/</loc>
     <lastmod>2016-07-18T22:11:20.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之第三方库的介绍 butterknife</title>
-        <pubTime>2016-06-07T14:54:46.000Z</pubTime>
+        <title>Android 进阶之自动化构建工具Travis CI</title>
+        <pubTime>2016-06-27T13:47:06.000Z</pubTime>
         
-        <tag>Android 常用第三方库</tag>
+        <tag>Android 开发流程</tag>
          
          
            
@@ -1607,14 +1647,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/06/27/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7Travis-CI/</loc>
+    <loc>http://yoursite.com/2016/06/07/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D-butterknife/</loc>
     <lastmod>2016-07-18T22:11:20.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之自动化构建工具Travis CI</title>
-        <pubTime>2016-06-27T13:47:06.000Z</pubTime>
+        <title>Android 进阶之第三方库的介绍 butterknife</title>
+        <pubTime>2016-06-07T14:54:46.000Z</pubTime>
         
-        <tag>Android 开发流程</tag>
+        <tag>Android 常用第三方库</tag>
          
          
            
@@ -1827,6 +1867,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F-DataBinding2/</loc>
+    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之设计模式 三 MVVM模式- DataBinding[二]</title>
+        <pubTime>2016-05-02T14:07:58.000Z</pubTime>
+        
+        <tag>Android 设计模式</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/04/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
@@ -1987,6 +2047,21 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/31/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-DrawerLayout-NavigationView-ActionBarDrawerToggle/</loc>
+    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之重要的控件 DrawerLayout && NavigationView && ActionBarDrawerToggle</title>
+        <pubTime>2016-05-31T12:53:49.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/05/13/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
@@ -2127,20 +2202,15 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/29/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%80-MVC%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>http://yoursite.com/2016/05/31/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-CollapsingToolbarLayout-AppBarLayout-CoordinatorLayout/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之设计模式 一 MVC模式</title>
-        <pubTime>2016-04-29T05:11:02.000Z</pubTime>
+        <title>Android 进阶之重要的控件 CollapsingToolbarLayout && AppBarLayout && CoordinatorLayout</title>
+        <pubTime>2016-05-31T12:53:07.000Z</pubTime>
         
-        <tag>Android 设计模式</tag>
-         
          
            
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
         </display>
     </data>
     </url>
@@ -2207,27 +2277,32 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/31/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-CollapsingToolbarLayout-AppBarLayout-CoordinatorLayout/</loc>
+    <loc>http://yoursite.com/2016/05/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-RecycleView/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之重要的控件 CollapsingToolbarLayout && AppBarLayout && CoordinatorLayout</title>
-        <pubTime>2016-05-31T12:53:07.000Z</pubTime>
+        <title>Android 进阶之重要的控件 RecycleView</title>
+        <pubTime>2016-05-30T12:16:26.000Z</pubTime>
         
+        <tag>重要控件</tag>
+         
          
            
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
         </display>
     </data>
     </url>
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/01/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F-DataBinding/</loc>
+    <loc>http://yoursite.com/2016/04/29/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%80-MVC%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之设计模式 三 MVVM模式 DataBinding [一] 搭建开发环境</title>
-        <pubTime>2016-05-01T14:29:54.000Z</pubTime>
+        <title>Android 进阶之设计模式 一 MVC模式</title>
+        <pubTime>2016-04-29T05:11:02.000Z</pubTime>
         
         <tag>Android 设计模式</tag>
          
@@ -2262,12 +2337,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/02/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F-DataBinding2/</loc>
+    <loc>http://yoursite.com/2016/05/01/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E4%B8%89-MVVM%E6%A8%A1%E5%BC%8F-DataBinding/</loc>
     <lastmod>2016-07-18T21:54:40.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之设计模式 三 MVVM模式- DataBinding[二]</title>
-        <pubTime>2016-05-02T14:07:58.000Z</pubTime>
+        <title>Android 进阶之设计模式 三 MVVM模式 DataBinding [一] 搭建开发环境</title>
+        <pubTime>2016-05-01T14:29:54.000Z</pubTime>
         
         <tag>Android 设计模式</tag>
          
@@ -2442,41 +2517,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/30/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-RecycleView/</loc>
-    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之重要的控件 RecycleView</title>
-        <pubTime>2016-05-30T12:16:26.000Z</pubTime>
-        
-        <tag>重要控件</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/05/31/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%87%8D%E8%A6%81%E7%9A%84%E6%8E%A7%E4%BB%B6-DrawerLayout-NavigationView-ActionBarDrawerToggle/</loc>
-    <lastmod>2016-07-18T21:54:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之重要的控件 DrawerLayout && NavigationView && ActionBarDrawerToggle</title>
-        <pubTime>2016-05-31T12:53:49.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/17/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E9%9B%B6-%E5%A4%A7%E7%BA%B2/</loc>
     <lastmod>2016-07-18T21:45:46.000Z</lastmod>
     <data>
@@ -2497,12 +2537,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/26/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89View-%E4%BA%8C-%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%AE%9A%E4%B9%89View%E7%9A%84%E6%96%B9%E5%BC%8F/</loc>
+    <loc>http://yoursite.com/2016/04/24/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89View/</loc>
     <lastmod>2016-07-18T21:42:14.000Z</lastmod>
     <data>
         <display>
-        <title>Android-进阶之自定义View 三 实现自定义View的方式</title>
-        <pubTime>2016-04-25T17:18:41.000Z</pubTime>
+        <title>Android-进阶之自定义View 一 自定义View 流程</title>
+        <pubTime>2016-04-24T14:15:24.000Z</pubTime>
         
         <tag>Android 自定义View进阶</tag>
          
@@ -2537,12 +2577,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/24/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89View/</loc>
+    <loc>http://yoursite.com/2016/04/26/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89View-%E4%BA%8C-%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%AE%9A%E4%B9%89View%E7%9A%84%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2016-07-18T21:42:14.000Z</lastmod>
     <data>
         <display>
-        <title>Android-进阶之自定义View 一 自定义View 流程</title>
-        <pubTime>2016-04-24T14:15:24.000Z</pubTime>
+        <title>Android-进阶之自定义View 三 实现自定义View的方式</title>
+        <pubTime>2016-04-25T17:18:41.000Z</pubTime>
         
         <tag>Android 自定义View进阶</tag>
          
@@ -2577,66 +2617,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/22/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E5%85%AD-%E5%8A%A8%E7%94%BB%E4%BA%8B%E4%BB%B6/</loc>
-    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之动画 六 动画事件</title>
-        <pubTime>2016-04-22T14:43:59.000Z</pubTime>
-        
-        <tag>Android 动画进阶</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/15/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E4%BA%8B%E4%BB%B6%E4%BA%A4%E4%BA%92/</loc>
-    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之事件交互 一 触摸事件和键盘事件</title>
-        <pubTime>2016-04-15T14:26:32.000Z</pubTime>
-        
-        <tag>Android 事件处理进阶</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/16/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E4%BA%8B%E4%BB%B6%E4%BA%A4%E4%BA%92-%E4%BA%8C-%E6%BB%91%E5%8A%A8%E4%BA%8B%E4%BB%B6/</loc>
-    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之事件交互 二 滑动事件</title>
-        <pubTime>2016-04-16T15:41:19.000Z</pubTime>
-        
-        <tag>Android 事件处理进阶</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/21/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E4%BA%94-%E5%8A%A8%E7%94%BB%E9%9B%86%E5%90%88/</loc>
     <lastmod>2016-07-18T21:41:12.000Z</lastmod>
     <data>
@@ -2657,14 +2637,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/19/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E4%B8%89-%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB/</loc>
+    <loc>http://yoursite.com/2016/04/12/Android-%E8%BF%9B%E9%98%B6%E4%B9%8BAndroid-%E7%BB%98%E5%9B%BE-%E4%B8%89-%E7%94%BB%E5%B8%83Canvs%E4%BB%A5%E5%8F%8ASurfaceView/</loc>
     <lastmod>2016-07-18T21:41:12.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之动画 三 属性动画</title>
-        <pubTime>2016-04-19T14:42:25.000Z</pubTime>
+        <title>Android 进阶之Android 绘图 三 画布Canvs以及SurfaceView</title>
+        <pubTime>2016-04-12T03:31:39.000Z</pubTime>
         
-        <tag>Android 动画进阶</tag>
+        <tag>Android 绘图进阶</tag>
          
          
            
@@ -2677,12 +2657,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/20/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E5%9B%9B-%E5%B8%83%E5%B1%80%E5%8A%A8%E7%94%BB/</loc>
+    <loc>http://yoursite.com/2016/04/19/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E4%B8%89-%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB/</loc>
     <lastmod>2016-07-18T21:41:12.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之动画 四 布局动画</title>
-        <pubTime>2016-04-20T14:42:53.000Z</pubTime>
+        <title>Android 进阶之动画 三 属性动画</title>
+        <pubTime>2016-04-19T14:42:25.000Z</pubTime>
         
         <tag>Android 动画进阶</tag>
          
@@ -2737,26 +2717,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/12/Android-%E8%BF%9B%E9%98%B6%E4%B9%8BAndroid-%E7%BB%98%E5%9B%BE-%E4%B8%89-%E7%94%BB%E5%B8%83Canvs%E4%BB%A5%E5%8F%8ASurfaceView/</loc>
-    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 进阶之Android 绘图 三 画布Canvs以及SurfaceView</title>
-        <pubTime>2016-04-12T03:31:39.000Z</pubTime>
-        
-        <tag>Android 绘图进阶</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/11/Android-%E8%BF%9B%E9%98%B6%E4%B9%8BAndroid-%E7%BB%98%E5%9B%BE-%E4%BA%8C-%E7%94%BB%E7%AC%94Paint/</loc>
     <lastmod>2016-07-18T21:41:12.000Z</lastmod>
     <data>
@@ -2777,14 +2737,74 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/10/Android-%E8%BF%9B%E9%98%B6%E4%B9%8BAndroid-%E7%BB%98%E5%9B%BE-%E4%B8%80-Android%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB%E5%8F%8A%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2016-07-18T21:39:08.000Z</lastmod>
+    <loc>http://yoursite.com/2016/04/15/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E4%BA%8B%E4%BB%B6%E4%BA%A4%E4%BA%92/</loc>
+    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
     <data>
         <display>
-        <title>Android 进阶之Android 绘图 一 Android坐标体系及屏幕尺寸相关概念</title>
-        <pubTime>2016-04-10T03:30:06.000Z</pubTime>
+        <title>Android 进阶之事件交互 一 触摸事件和键盘事件</title>
+        <pubTime>2016-04-15T14:26:32.000Z</pubTime>
         
-        <tag>Android 绘图进阶</tag>
+        <tag>Android 事件处理进阶</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/16/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E4%BA%8B%E4%BB%B6%E4%BA%A4%E4%BA%92-%E4%BA%8C-%E6%BB%91%E5%8A%A8%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之事件交互 二 滑动事件</title>
+        <pubTime>2016-04-16T15:41:19.000Z</pubTime>
+        
+        <tag>Android 事件处理进阶</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/20/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E5%9B%9B-%E5%B8%83%E5%B1%80%E5%8A%A8%E7%94%BB/</loc>
+    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之动画 四 布局动画</title>
+        <pubTime>2016-04-20T14:42:53.000Z</pubTime>
+        
+        <tag>Android 动画进阶</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/22/Android-%E8%BF%9B%E9%98%B6%E4%B9%8B%E5%8A%A8%E7%94%BB-%E5%85%AD-%E5%8A%A8%E7%94%BB%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2016-07-18T21:41:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之动画 六 动画事件</title>
+        <pubTime>2016-04-22T14:43:59.000Z</pubTime>
+        
+        <tag>Android 动画进阶</tag>
          
          
            
@@ -2823,6 +2843,26 @@
         <display>
         <title>Android 进阶之Android 绘图 五 硬件加速</title>
         <pubTime>2016-04-14T04:09:21.000Z</pubTime>
+        
+        <tag>Android 绘图进阶</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android进阶" url="http://yoursite.com/categories/Android%E8%BF%9B%E9%98%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/10/Android-%E8%BF%9B%E9%98%B6%E4%B9%8BAndroid-%E7%BB%98%E5%9B%BE-%E4%B8%80-Android%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB%E5%8F%8A%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2016-07-18T21:39:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 进阶之Android 绘图 一 Android坐标体系及屏幕尺寸相关概念</title>
+        <pubTime>2016-04-10T03:30:06.000Z</pubTime>
         
         <tag>Android 绘图进阶</tag>
          
@@ -2877,52 +2917,32 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/30/Android-%E5%88%9D%E6%AD%A5%E4%B9%8B%E8%B5%84%E6%BA%90%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2016-07-18T21:30:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 初步之资源的使用</title>
-        <pubTime>2016-03-30T13:16:04.000Z</pubTime>
-        
-        <tag>Android基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/06/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAndroid-%E5%AE%89%E5%85%A8%E6%9C%BA%E5%88%B6/</loc>
-    <lastmod>2016-07-18T21:30:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 初步之Android 安全机制</title>
-        <pubTime>2016-04-06T11:51:27.000Z</pubTime>
-        
-        <tag>Android基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/03/Android-%E5%88%9D%E6%AD%A5%E4%B9%8B%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%AE%9A%E4%BD%8D%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2016-07-18T21:30:36.000Z</lastmod>
     <data>
         <display>
         <title>Android 初步之网络与定位服务</title>
         <pubTime>2016-04-03T13:15:39.000Z</pubTime>
+        
+        <tag>Android基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/04/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAIDL/</loc>
+    <lastmod>2016-07-18T21:30:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 初步之 使用Android studio 开发 AIDL</title>
+        <pubTime>2016-04-04T13:17:46.000Z</pubTime>
         
         <tag>Android基础</tag>
          
@@ -2977,12 +2997,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/04/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAIDL/</loc>
+    <loc>http://yoursite.com/2016/03/30/Android-%E5%88%9D%E6%AD%A5%E4%B9%8B%E8%B5%84%E6%BA%90%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2016-07-18T21:30:36.000Z</lastmod>
     <data>
         <display>
-        <title>Android 初步之 使用Android studio 开发 AIDL</title>
-        <pubTime>2016-04-04T13:17:46.000Z</pubTime>
+        <title>Android 初步之资源的使用</title>
+        <pubTime>2016-03-30T13:16:04.000Z</pubTime>
         
         <tag>Android基础</tag>
          
@@ -3023,6 +3043,26 @@
         <display>
         <title>Android 初步之Adapter 与 ListView</title>
         <pubTime>2016-04-01T15:06:29.000Z</pubTime>
+        
+        <tag>Android基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/06/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAndroid-%E5%AE%89%E5%85%A8%E6%9C%BA%E5%88%B6/</loc>
+    <lastmod>2016-07-18T21:30:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 初步之Android 安全机制</title>
+        <pubTime>2016-04-06T11:51:27.000Z</pubTime>
         
         <tag>Android基础</tag>
          
@@ -3117,26 +3157,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/27/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAndroid%E7%BB%84%E4%BB%B6-Content-Provider/</loc>
-    <lastmod>2016-07-18T21:20:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 初步之Android组件  Content Provider</title>
-        <pubTime>2016-03-27T08:32:15.000Z</pubTime>
-        
-        <tag>Android基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/03/26/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAndroid%E7%BB%84%E4%BB%B6-BroadcastReceiver/</loc>
     <lastmod>2016-07-18T21:20:56.000Z</lastmod>
     <data>
@@ -3177,92 +3197,32 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/03/27/Android-%E5%88%9D%E6%AD%A5%E4%B9%8BAndroid%E7%BB%84%E4%BB%B6-Content-Provider/</loc>
+    <lastmod>2016-07-18T21:20:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 初步之Android组件  Content Provider</title>
+        <pubTime>2016-03-27T08:32:15.000Z</pubTime>
+        
+        <tag>Android基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android初步" url="http://yoursite.com/categories/Android%E5%88%9D%E6%AD%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/03/22/%E6%A0%91%E8%8E%93%E6%B4%BE3-%E5%AE%89%E8%A3%85ROS-Indigo/</loc>
     <lastmod>2016-07-18T21:12:18.000Z</lastmod>
     <data>
         <display>
         <title>树莓派3 安装ROS Indigo</title>
         <pubTime>2016-03-22T10:53:40.000Z</pubTime>
-        
-        <tag>ROS</tag>
-         
-         
-           
-             
-              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/15/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0ROS%E7%9A%84%E9%87%8D%E8%A6%81%E7%BB%84%E4%BB%B6/</loc>
-    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>睡前ROS学习ROS的重要组件</title>
-        <pubTime>2016-03-15T13:45:58.000Z</pubTime>
-        
-        <tag>ROS</tag>
-         
-         
-           
-             
-              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/14/%E7%9D%A1%E5%89%8D%E5%AD%A6%E4%B9%A0ROS-%E5%AF%BB%E6%89%BE%E4%B8%80%E6%AC%BEROS-IDE/</loc>
-    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>睡前学习ROS 寻找一款ROS IDE</title>
-        <pubTime>2016-03-14T14:18:18.000Z</pubTime>
-        
-        <tag>ROS</tag>
-         
-         
-           
-             
-              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/13/%E7%9D%A1%E5%89%8DROS-%E5%AD%A6%E4%B9%A0-Hello-World-ROS/</loc>
-    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>睡前ROS 学习 Hello World ROS</title>
-        <pubTime>2016-03-13T15:22:08.000Z</pubTime>
-        
-        <tag>ROS</tag>
-         
-         
-           
-             
-              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/03/16/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0%E4%B9%8BROS%E7%BB%84%E4%BB%B6/</loc>
-    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>睡前ROS学习之ROS组件</title>
-        <pubTime>2016-03-16T13:21:29.000Z</pubTime>
         
         <tag>ROS</tag>
          
@@ -3297,6 +3257,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/03/16/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0%E4%B9%8BROS%E7%BB%84%E4%BB%B6/</loc>
+    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>睡前ROS学习之ROS组件</title>
+        <pubTime>2016-03-16T13:21:29.000Z</pubTime>
+        
+        <tag>ROS</tag>
+         
+         
+           
+             
+              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/03/20/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0%E4%B9%8BROS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/</loc>
     <lastmod>2016-07-18T21:09:38.000Z</lastmod>
     <data>
@@ -3317,12 +3297,27 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/21/%E7%9D%A1%E5%89%8D%E5%AD%A6%E4%B9%A0ROS%E4%B9%8B-%E8%BF%90%E8%A1%8CROS-Master%E5%92%8C-ROS-%E5%8F%82%E6%95%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://yoursite.com/2016/03/18/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0%E4%B9%8BROS-node/</loc>
     <lastmod>2016-07-18T21:09:38.000Z</lastmod>
     <data>
         <display>
-        <title>睡前学习ROS之 运行ROS Master和 ROS 参数服务器</title>
-        <pubTime>2016-03-21T13:23:18.000Z</pubTime>
+        <title>睡前ROS学习之ROS node && ROS Master</title>
+        <pubTime>2016-03-18T14:48:37.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/14/%E7%9D%A1%E5%89%8D%E5%AD%A6%E4%B9%A0ROS-%E5%AF%BB%E6%89%BE%E4%B8%80%E6%AC%BEROS-IDE/</loc>
+    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>睡前学习ROS 寻找一款ROS IDE</title>
+        <pubTime>2016-03-14T14:18:18.000Z</pubTime>
         
         <tag>ROS</tag>
          
@@ -3357,15 +3352,60 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/18/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0%E4%B9%8BROS-node/</loc>
+    <loc>http://yoursite.com/2016/03/21/%E7%9D%A1%E5%89%8D%E5%AD%A6%E4%B9%A0ROS%E4%B9%8B-%E8%BF%90%E8%A1%8CROS-Master%E5%92%8C-ROS-%E5%8F%82%E6%95%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2016-07-18T21:09:38.000Z</lastmod>
     <data>
         <display>
-        <title>睡前ROS学习之ROS node && ROS Master</title>
-        <pubTime>2016-03-18T14:48:37.000Z</pubTime>
+        <title>睡前学习ROS之 运行ROS Master和 ROS 参数服务器</title>
+        <pubTime>2016-03-21T13:23:18.000Z</pubTime>
         
+        <tag>ROS</tag>
+         
          
            
+             
+              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/13/%E7%9D%A1%E5%89%8DROS-%E5%AD%A6%E4%B9%A0-Hello-World-ROS/</loc>
+    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>睡前ROS 学习 Hello World ROS</title>
+        <pubTime>2016-03-13T15:22:08.000Z</pubTime>
+        
+        <tag>ROS</tag>
+         
+         
+           
+             
+              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/15/%E7%9D%A1%E5%89%8DROS%E5%AD%A6%E4%B9%A0ROS%E7%9A%84%E9%87%8D%E8%A6%81%E7%BB%84%E4%BB%B6/</loc>
+    <lastmod>2016-07-18T21:09:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>睡前ROS学习ROS的重要组件</title>
+        <pubTime>2016-03-15T13:45:58.000Z</pubTime>
+        
+        <tag>ROS</tag>
+         
+         
+           
+             
+              <breadCrumb title="ROS" url="http://yoursite.com/categories/ROS/"/>
+          
         </display>
     </data>
     </url>
@@ -3432,26 +3472,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/05/Opencv-%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</loc>
-    <lastmod>2016-07-18T20:55:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Opencv 学习过程中遇到的错误</title>
-        <pubTime>2016-03-05T14:13:02.000Z</pubTime>
-        
-        <tag>OpenCV</tag>
-         
-         
-           
-             
-              <breadCrumb title="OpenCV" url="http://yoursite.com/categories/OpenCV/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/03/06/OPencv3-%E6%96%B0%E7%89%B9%E6%80%A7/</loc>
     <lastmod>2016-07-18T20:55:32.000Z</lastmod>
     <data>
@@ -3478,6 +3498,26 @@
         <display>
         <title>Opencv Mat</title>
         <pubTime>2016-03-06T23:52:40.000Z</pubTime>
+        
+        <tag>OpenCV</tag>
+         
+         
+           
+             
+              <breadCrumb title="OpenCV" url="http://yoursite.com/categories/OpenCV/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/03/05/Opencv-%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AF/</loc>
+    <lastmod>2016-07-18T20:55:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Opencv 学习过程中遇到的错误</title>
+        <pubTime>2016-03-05T14:13:02.000Z</pubTime>
         
         <tag>OpenCV</tag>
          
@@ -3612,6 +3652,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/02/25/hexo_command/</loc>
+    <lastmod>2016-07-18T20:37:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 常用的命令</title>
+        <pubTime>2016-02-25T15:42:48.000Z</pubTime>
+        
+        <tag>Hexo 使用</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo 使用" url="http://yoursite.com/categories/Hexo-%E4%BD%BF%E7%94%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/02/26/Hexo-%E5%B8%B8%E7%94%A8%E7%9A%84%E7%9B%AE%E5%BD%95%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2016-07-18T20:37:52.000Z</lastmod>
     <data>
@@ -3638,26 +3698,6 @@
         <display>
         <title>Hexo 安装插件</title>
         <pubTime>2016-02-24T15:58:52.000Z</pubTime>
-        
-        <tag>Hexo 使用</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo 使用" url="http://yoursite.com/categories/Hexo-%E4%BD%BF%E7%94%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/25/hexo_command/</loc>
-    <lastmod>2016-07-18T20:37:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 常用的命令</title>
-        <pubTime>2016-02-25T15:42:48.000Z</pubTime>
         
         <tag>Hexo 使用</tag>
          
@@ -3772,26 +3812,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/17/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAAndroid-SDK-%E9%95%9C%E5%83%8F/</loc>
-    <lastmod>2016-07-15T00:18:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>推荐一个Android SDK 镜像</title>
-        <pubTime>2016-04-17T12:02:07.000Z</pubTime>
-        
-        <tag>Android其他</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android其他" url="http://yoursite.com/categories/Android%E5%85%B6%E4%BB%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/02/27/%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E9%93%BE%E6%8E%A5/</loc>
     <lastmod>2016-07-15T00:18:00.000Z</lastmod>
     <data>
@@ -3805,6 +3825,26 @@
            
              
               <breadCrumb title="个人收藏" url="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/17/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAAndroid-SDK-%E9%95%9C%E5%83%8F/</loc>
+    <lastmod>2016-07-15T00:18:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>推荐一个Android SDK 镜像</title>
+        <pubTime>2016-04-17T12:02:07.000Z</pubTime>
+        
+        <tag>Android其他</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android其他" url="http://yoursite.com/categories/Android%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>

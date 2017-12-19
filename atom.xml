@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-16T03:09:40.333Z</updated>
+  <updated>2017-12-19T14:06:48.191Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOS 直播技术总结[二] 图解CDN架构</title>
+    <link href="http://yoursite.com/2017/12/19/iOS-%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93-%E4%BA%8C-%E5%9B%BE%E8%A7%A3CDN%E6%9E%B6%E6%9E%84/"/>
+    <id>http://yoursite.com/2017/12/19/iOS-直播技术总结-二-图解CDN架构/</id>
+    <published>2017-12-19T14:04:51.000Z</published>
+    <updated>2017-12-19T14:06:48.191Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/2017/12/19/iOS-&amp;#x76F4;&amp;#x64AD;&amp;#x6280;&amp;#x672F;&amp;#x603B;&amp;#x7ED3;-&amp;#x4E8C;-&amp;#x56FE;&amp;#x89E3;CDN&amp;#x67B6;&amp;#x6784;/001.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2017/12/19/iOS-&amp;#x76F4;&amp;#x64AD;&amp;#x6280;&amp;#x672F;&amp;#x603B;&amp;#x7ED3;-&amp;#x4E8C;-&amp;#x56FE;&amp;#x89E3;CDN&amp;#x67B6;&amp;#x6784;/001.png&quot; alt=&quot;&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="直播" scheme="http://yoursite.com/categories/%E7%9B%B4%E6%92%AD/"/>
+    
+    
+      <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 直播技术总结[一] 图解iOS移动端直播技术框架</title>
+    <link href="http://yoursite.com/2017/12/19/iOS-%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93-%E4%B8%80-%E5%9B%BE%E8%A7%A3iOS%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%9B%B4%E6%92%AD%E6%8A%80%E6%9C%AF%E6%A1%86%E6%9E%B6/"/>
+    <id>http://yoursite.com/2017/12/19/iOS-直播技术总结-一-图解iOS移动端直播技术框架/</id>
+    <published>2017-12-19T14:01:30.000Z</published>
+    <updated>2017-12-19T14:06:48.191Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/2017/12/19/iOS-&amp;#x76F4;&amp;#x64AD;&amp;#x6280;&amp;#x672F;&amp;#x603B;&amp;#x7ED3;-&amp;#x4E00;-&amp;#x56FE;&amp;#x89E3;iOS&amp;#x79FB;&amp;#x52A8;&amp;#x7AEF;&amp;#x76F4;&amp;#x64AD;&amp;#x6280;&amp;#x672F;&amp;#x6846;&amp;#x67B6;/001.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2017/12/19/iOS-&amp;#x76F4;&amp;#x64AD;&amp;#x6280;&amp;#x672F;&amp;#x603B;&amp;#x7ED3;-&amp;#x4E00;-&amp;#x56FE;&amp;#x89E3;iOS&amp;#x79FB;&amp;#x52A8;&amp;#x7AEF;&amp;#x76F4;&amp;#
+    
+    </summary>
+    
+      <category term="直播" scheme="http://yoursite.com/categories/%E7%9B%B4%E6%92%AD/"/>
+    
+    
+      <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>iOS 学习记录[一] 图解生命周期</title>
@@ -1204,67 +1250,6 @@ alert(fun3().a)          //&amp;#x8FD4;&amp;#x56DE;&amp;#x503C;&amp;#x662F;&amp;
     
     
       <category term="Android 开源源码" scheme="http://yoursite.com/tags/Android-%E5%BC%80%E6%BA%90%E6%BA%90%E7%A0%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>睡前叨叨</title>
-    <link href="http://yoursite.com/2016/08/11/%E7%9D%A1%E5%89%8D%E5%8F%A8%E5%8F%A8/"/>
-    <id>http://yoursite.com/2016/08/11/睡前叨叨/</id>
-    <published>2016-08-10T16:59:06.000Z</published>
-    <updated>2016-08-14T00:42:44.000Z</updated>
-    
-    <content type="html">&lt;h4 id=&quot;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-11&quot;&gt;&lt;a href=&quot;#&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-11&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8; 2016-08-11&quot;&gt;&lt;/a&gt;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8; 2016-08-11&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x4E52;&amp;#x4E53;&amp;#x7403;&amp;#x754C;&amp;#x7684;&amp;#x201C;&amp;#x85CF;&amp;#x7352;&amp;#x201D; &amp;#x79D1;&amp;#x795E;&amp;#xFF0C;&amp;#x5F20;&amp;#x7EE7;&amp;#x79D1;&amp;#xFF0C;&amp;#x5728;&amp;#x7761;&amp;#x68A6;&amp;#x4E2D;&amp;#x628A;&amp;#x5BF9;&amp;#x624B;&amp;#x7ED9;&amp;#x529E;&amp;#x4E86;&amp;#xFF0C;&amp;#x54C8;&amp;#x54C8;&amp;#xFF0C;&amp;#x611F;&amp;#x89C9;&amp;#x79D1;&amp;#x795E;&amp;#x8981;&amp;#x662F;&amp;#x60F3;&amp;#x8D62;&amp;#xFF0C;&amp;#x53EA;&amp;#x4F1A;&amp;#x8F93;&amp;#x7ED9;&amp;#x6BD4;&amp;#x4ED6;&amp;#x66F4;&amp;#x60F3;&amp;#x8D62;&amp;#x7684;&amp;#x4EBA;&amp;#x3002;&amp;#x606D;&amp;#x559C;&amp;#x79D1;&amp;#x795E;&amp;#xFF01;&amp;#xFF01;&amp;#xFF01;&amp;#xFF01;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;#x660E;&amp;#x5929;&amp;#x8981;&amp;#x5F00;&amp;#x59CB;&amp;#x6295;&amp;#x7B80;&amp;#x5386;&amp;#x627E;&amp;#x5DE5;&amp;#x4F5C;&amp;#x4E86;&amp;#xFF0C;&amp;#x5728;&amp;#x8FD9;&amp;#x671F;&amp;#x95F4;&amp;#xFF0C;&amp;#x6709;&amp;#x4E2A;&amp;#x5C0F;&amp;#x5C0F;&amp;#x7684;&amp;#x76EE;&amp;#x6807;&amp;#xFF0C;&amp;#x5C31;&amp;#x662F;&amp;#x57F9;&amp;#x517B;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;&amp;#x624B;&amp;#x7ED8;&amp;#x7231;&amp;#x597D;&amp;#xFF0C;&amp;#x4E0B;&amp;#x9762;&amp;#x662F;&amp;#x9053;&amp;#x5177;&amp;#xFF0C;&amp;#x540E;&amp;#x7EED;&amp;#x4F1A;&amp;#x7EDF;&amp;#x4E00;&amp;#x4E0A;&amp;#x4F20;&amp;#x5206;&amp;#x4EAB;&amp;#x7ED9;&amp;#x5927;&amp;#x5BB6;&amp;#xFF0C;&amp;#x54CE;&amp;#x5440;&amp;#xFF0C;&amp;#x5C0F;&amp;#x7EC6;&amp;#x817F;&amp;#x9732;&amp;#x70B9;&amp;#x4E86;&amp;#xFF0C;&amp;#x5475;&amp;#x5475;&amp;#x3002;&lt;br&gt;&lt;img src=&quot;/2016/08/11/&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;/12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;#x8FD9;&amp;#x4E2A;&amp;#x6708;&amp;#x7684;&amp;#x7761;&amp;#x524D;&amp;#x65F6;&amp;#x95F4;&amp;#x5C31;&amp;#x4EA4;&amp;#x7ED9;&amp;#x5A1C;&amp;#x59D0;&amp;#x4E86;&amp;#xFF0C;&amp;#x540E;&amp;#x7EED;&amp;#x4E5F;&amp;#x4F1A;&amp;#x5199;&amp;#x4E00;&amp;#x4E9B;&amp;#x4E66;&amp;#x8BC4;&amp;#x4E4B;&amp;#x7C7B;&amp;#x7684;&amp;#xFF0C;&amp;#x770B;&amp;#x65F6;&amp;#x95F4;&amp;#x662F;&amp;#x5426;&amp;#x5141;&amp;#x8BB8;&amp;#x4E86;&amp;#x3002;&lt;br&gt;&lt;img src=&quot;/2016/08/11/&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;/22.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x56E0;&amp;#x4E3A;GitHub page&amp;#x5728;&amp;#x4E0D;&amp;#x7FFB;&amp;#x5899;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#x4F1A;&amp;#x65F6;&amp;#x4E0D;&amp;#x65F6;&amp;#x5F97;&amp;#x8BBF;&amp;#x95EE;&amp;#x4E0D;&amp;#x4E86;&amp;#xFF0C;&amp;#x8FD9;&amp;#x51E0;&amp;#x5929;&amp;#x4E00;&amp;#x76F4;&amp;#x5728;&amp;#x627E;&amp;#x4E00;&amp;#x4E2A;&amp;#x56FD;&amp;#x5185;&amp;#x8F83;&amp;#x597D;&amp;#x7684;&amp;#x535A;&amp;#x5BA2;&amp;#x7F51;&amp;#x7AD9;&amp;#xFF0C;&amp;#x628A;&amp;#x8FD9;&amp;#x4E00;&amp;#x767E;&amp;#x591A;&amp;#x7BC7;&amp;#x535A;&amp;#x5BA2;&amp;#x642C;&amp;#x8FC7;&amp;#x53BB;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x4E00;&amp;#x7C98;&amp;#x8D34;&amp;#x8FC7;&amp;#x53BB;&amp;#x683C;&amp;#x5F0F;&amp;#x90FD;&amp;#x4E71;&amp;#x4E86;&amp;#xFF0C;&amp;#x4E0D;&amp;#x597D;&amp;#x770B;&amp;#xFF0C;&amp;#x518D;&amp;#x8C03;&amp;#x683C;&amp;#x5F0F;&amp;#x9EBB;&amp;#x70E6;&amp;#xFF0C;&amp;#x627E;&amp;#x5230;&amp;#x5F00;&amp;#x6E90;&amp;#x4E2D;&amp;#x56FD;&amp;#x611F;&amp;#x89C9;&amp;#x8FD8;&amp;#x53EF;&amp;#x4EE5;&amp;#xFF0C;&amp;#x7ED3;&amp;#x679C;&amp;#x6BCF;&amp;#x5929;&amp;#x53EA;&amp;#x80FD;&amp;#x4E0A;&amp;#x4F20;10&amp;#x7BC7;&amp;#xFF0C;&amp;#x90A3;&amp;#x6211;&amp;#x8FD9;&amp;#x8FB9;&amp;#x5168;&amp;#x642C;&amp;#x8FC7;&amp;#x53BB;&amp;#x8981;&amp;#x5DEE;&amp;#x4E0D;&amp;#x591A;&amp;#x534A;&amp;#x4E2A;&amp;#x6708;&amp;#xFF0C;&amp;#x5FC3;&amp;#x7D2F;&amp;#xFF0C;&amp;#x5C31;&amp;#x4E0D;&amp;#x642C;&amp;#x4E86;&amp;#xFF0C;&amp;#x65B9;&amp;#x6B63;&amp;#x89C9;&amp;#x5F97;&amp;#x8FD9;&amp;#x91CC;&amp;#x5199;&amp;#x535A;&amp;#x5BA2;&amp;#x66F4;&amp;#x597D;&amp;#xFF0C;&amp;#x6BD4;&amp;#x8F83;&amp;#x6E05;&amp;#x51C0;&amp;#xFF0C;&amp;#x4E5F;&amp;#x4E0D;&amp;#x4F1A;&amp;#x4E3A;&amp;#x4E86;&amp;#x5199;&amp;#x535A;&amp;#x5BA2;&amp;#x800C;&amp;#x5199;&amp;#x535A;&amp;#x5BA2;&amp;#x3002;&amp;#x6700;&amp;#x5173;&amp;#x952E;&amp;#x7684;&amp;#x662F;&amp;#x4E3B;&amp;#x9898;&amp;#x968F;&amp;#x4FBF;&amp;#x6362;&amp;#xFF0C;&amp;#x54C8;&amp;#x54C8;&amp;#x3002;&amp;#x5F97;&amp;#x7761;&amp;#x4E86;&amp;#xFF0C;&amp;#x660E;&amp;#x5929;&amp;#x5F00;&amp;#x59CB;&amp;#x6295;&amp;#x7B80;&amp;#x5386;&amp;#x4E86;&amp;#x3002;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&amp;#x201C;&amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8981;&amp;#x7684;&amp;#x8FD8;&amp;#x6CA1;&amp;#x6765;&amp;#xFF0C;&amp;#x5C31;&amp;#x6C38;&amp;#x8FDC;&amp;#x4E0D;&amp;#x8981;&amp;#x653E;&amp;#x5F03;&amp;#xFF0C;&amp;#x5E76;&amp;#x76F8;&amp;#x4FE1;&amp;#x8BE5;&amp;#x6765;&amp;#x7684;&amp;#x603B;&amp;#x4F1A;&amp;#x6765;&amp;#x201D;  &amp;#x2014; &amp;#x4E0D;&amp;#x77E5;&amp;#x9053;&amp;#x8C01;&amp;#x8BF4;&amp;#x7684;&amp;#xFF0C;&amp;#x6CA1;&amp;#x4EBA;&amp;#x8BA4;&amp;#x9886;&amp;#x5C31;&amp;#x5F53;&amp;#x6211;&amp;#x8BF4;&amp;#x7684;&amp;#x5427;&amp;#xFF0C;&amp;#x54C8;&amp;#x54C8;&amp;#x3002;&lt;/p&gt;
-&lt;h4 id=&quot;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-14&quot;&gt;&lt;a href=&quot;#&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-14&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8; 2016-08-14&quot;&gt;&lt;/a&gt;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8; 2016-08-14&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;&amp;#x535A;&amp;#x5BA2;&amp;#x8BA1;&amp;#x5212;&lt;br&gt;&amp;#x5199;&amp;#x4E00;&amp;#x4E2A;&amp;#x521A;&amp;#x5165;&amp;#x95E8;&amp;#x7684;&amp;#x81EA;&amp;#x5DF1;&amp;#x90FD;&amp;#x80FD;&amp;#x770B;&amp;#x61C2;&amp;#x7684;&amp;#x81EA;&amp;#x5B9A;&amp;#x4E49;View&amp;#x5B9E;&amp;#x4F8B;&amp;#x4E13;&amp;#x9898;&amp;#x3002;&lt;br&gt;&amp;#x63D2;&amp;#x4EF6;&amp;#x5F00;&amp;#x53D1;&amp;#xFF0C;&amp;#x70ED;&amp;#x4FEE;&amp;#x590D;&lt;br&gt;&amp;#x5206;&amp;#x6790;&amp;#x5F00;&amp;#x6E90;&amp;#x6846;&amp;#x67B6;&amp;#xFF08;&amp;#x5F85;&amp;#x5B9A;&amp;#xFF09;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-11&quot;&gt;&lt;a href=&quot;#&amp;#x7761;&amp;#x524D;&amp;#x53E8;&amp;#x53E8;-2016-08-11&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x776
-    
-    </summary>
-    
-      <category term="叨叨系列" scheme="http://yoursite.com/categories/%E5%8F%A8%E5%8F%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="叨叨系列" scheme="http://yoursite.com/tags/%E5%8F%A8%E5%8F%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 源码分析之Zygote &amp;&amp; SystemServer</title>
-    <link href="http://yoursite.com/2016/08/03/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90Zygote/"/>
-    <id>http://yoursite.com/2016/08/03/Android-源码分析Zygote/</id>
-    <published>2016-08-03T13:14:51.000Z</published>
-    <updated>2016-08-05T23:54:52.000Z</updated>
-    
-    <content type="html">&lt;h4 id=&quot;Zygote&quot;&gt;&lt;a href=&quot;#Zygote&quot; class=&quot;headerlink&quot; title=&quot;Zygote&quot;&gt;&lt;/a&gt;Zygote&lt;/h4&gt;&lt;p&gt;&amp;#x6545;&amp;#x540D;&amp;#x601D;&amp;#x8BAE;&amp;#x5C31;&amp;#x662F;&amp;#x201C;&amp;#x53D7;&amp;#x7CBE;&amp;#x5375;&amp;#x201D;&amp;#x7684;&amp;#x610F;&amp;#x601D;&amp;#xFF0C;&amp;#x53D7;&amp;#x7CBE;&amp;#x5375;&amp;#x7684;&amp;#x7279;&amp;#x70B9;&amp;#x5C31;&amp;#x662F;&amp;#x5B83;&amp;#x662F;&amp;#x65B0;&amp;#x751F;&amp;#x547D;&amp;#x7684;&amp;#x5F00;&amp;#x59CB;&amp;#xFF0C;&amp;#x5E76;&amp;#x4E14;&amp;#x53D7;&amp;#x7CBE;&amp;#x5375;&amp;#x4E00;&amp;#x822C;&amp;#x90FD;&amp;#x53EF;&amp;#x4EE5;&amp;#x643A;&amp;#x5E26;&amp;#x4E00;&amp;#x4E9B;&amp;#x7236;&amp;#x8F88;&amp;#x7684;&amp;#x9057;&amp;#x4F20;&amp;#x4FE1;&amp;#x606F;&amp;#x3002;Zygote&amp;#x5728;Android&amp;#x7CFB;&amp;#x7EDF;&amp;#x4E2D;&amp;#x5C31;&amp;#x76F8;&amp;#x5F53;&amp;#x4E8E;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E94;&amp;#x7528;&amp;#x7A0B;&amp;#x5E8F;&amp;#x7684;&amp;#x53D7;&amp;#x7CBE;&amp;#x5375;&amp;#x4E00;&amp;#x6837;&amp;#xFF0C;&amp;#x4F1A;&amp;#x751F;&amp;#x6210;&amp;#x51FA;&amp;#x65B0;&amp;#x7684;&amp;#x5E94;&amp;#x7528;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x77E5;&amp;#x9053;Linux&amp;#x7CFB;&amp;#x7EDF;&amp;#x4E2D;&amp;#x8981;&amp;#x521B;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A;&amp;#x8FDB;&amp;#x7A0B;&amp;#x9700;&amp;#x8981;&amp;#x5148;&amp;#x8C03;&amp;#x7528;fork&amp;#x65B9;&amp;#x6CD5;&amp;#xFF0C;fork&amp;#x5F97;&amp;#x5230;&amp;#x7684;&amp;#x8FDB;&amp;#x7A0B;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x6570;&amp;#x636E;&amp;#x662F;&amp;#x548C;&amp;#x7236;&amp;#x8F88;&amp;#x8FDB;&amp;#x7A0B;&amp;#x662F;&amp;#x4E00;&amp;#x81F4;&amp;#x7684;&amp;#xFF0C;&amp;#x4E5F;&amp;#x5C31;&amp;#x662F;&amp;#x8BF4;&amp;#x5B50;&amp;#x8FDB;&amp;#x7A0B;&amp;#x548C;&amp;#x7236;&amp;#x8FDB;&amp;#x7A0B;&amp;#x4E4B;&amp;#x95F4;&amp;#x5171;&amp;#x4EAB;&amp;#x7740;&amp;#x5185;&amp;#x5B58;&amp;#x7A7A;&amp;#x95F4;&amp;#x3002;&amp;#x53EA;&amp;#x6709;&amp;#x5728;&amp;#x8C03;&amp;#x7528;exec&amp;#x65B9;&amp;#x6CD5;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x624D;&amp;#x4F1A;&amp;#x7528;&amp;#x65B0;&amp;#x7684;&amp;#x53EF;&amp;#x6267;&amp;#x884C;&amp;#x6587;&amp;#x4EF6;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#x66FF;&amp;#x6362;&amp;#x5F53;&amp;#x524D;&amp;#x8FDB;&amp;#x7A0B;&amp;#x7684;&amp;#x4EE3;&amp;#x7801;&amp;#x6BB5;&amp;#xFF0C;&amp;#x6570;&amp;#x636E;&amp;#x6BB5;&amp;#xFF0C;&amp;#x5806;&amp;#x6808;&amp;#x7B49;&amp;#x6570;&amp;#x636E;&amp;#x3002;&amp;#x4F46;&amp;#x662F;&amp;#x5728;Android&amp;#x7CFB;&amp;#x7EDF;&amp;#x4E2D;Zygote&amp;#x5728;&amp;#x521D;&amp;#x59CB;&amp;#x5316;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x4F1A;&amp;#x521B;&amp;#x5EFA;Delvik&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#xFF0C;&amp;#x5728;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9636;&amp;#x6BB5;&amp;#x4F1A;&amp;#x5C06;&amp;#x7CFB;&amp;#x7EDF;&amp;#x7684;&amp;#x7C7B;&amp;#x5E93;&amp;#xFF0C;&amp;#x8D44;&amp;#x6E90;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x5171;&amp;#x4EAB;&amp;#x5E93;&amp;#x52A0;&amp;#x8F7D;&amp;#x5230;&amp;#x5185;&amp;#x5B58;&amp;#xFF0C;&amp;#x5728;&amp;#x540E;&amp;#x7EED;Zygote fork&amp;#x51FA;&amp;#x5B50;&amp;#x8FDB;&amp;#x7A0B;&amp;#x540E;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5B50;&amp;#x8FDB;&amp;#x7A0B;&amp;#x4E5F;&amp;#x5C31;&amp;#x6709;&amp;#x4E86;&amp;#x4E0A;&amp;#x8FF0;&amp;#x8D44;&amp;#x6E90;&amp;#xFF0C;&amp;#x5C31;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x91CD;&amp;#x65B0;&amp;#x52A0;&amp;#x8F7D;&amp;#x4E86;&amp;#xFF0C;&amp;#x53EA;&amp;#x9700;&amp;#x8981;&amp;#x88C5;&amp;#x8F7D;APK&amp;#x4E2D;&amp;#x7684;&amp;#x5B57;&amp;#x8282;&amp;#x7801;&amp;#x5C31;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x8FD0;&amp;#x884C;&amp;#x4E86;&amp;#xFF0C;&amp;#x6240;&amp;#x4EE5;&amp;#x4F1A;&amp;#x5728;&amp;#x5F88;&amp;#x5927;&amp;#x7A0B;&amp;#x5EA6;&amp;#x4E0A;&amp;#x7F29;&amp;#x77ED;&amp;#x542F;&amp;#x52A8;&amp;#x8FDB;&amp;#x7A0B;&amp;#x7684;&amp;#x65F6;&amp;#x95F4;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2016/08/03/Android-&amp;#x6E90;&amp;#x7801;&amp;#x5206;&amp;#x6790;Zygote/11.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h4 id=&quot;SystemServer&quot;&gt;&lt;a href=&quot;#SystemServer&quot; class=&quot;headerlink&quot; title=&quot;SystemServer&quot;&gt;&lt;/a&gt;SystemServer&lt;/h4&gt;&lt;p&gt;&amp;#x4E00;&amp;#x822C;&amp;#x6211;&amp;#x5011;&amp;#x5728;&amp;#x5F00;&amp;#x53D1;&amp;#x5E94;&amp;#x7528;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x5982;&amp;#x679C;&amp;#x8981;&amp;#x4F7F;&amp;#x7528;&amp;#x4E00;&amp;#x4E2A;&amp;#x670D;&amp;#x52A1;&amp;#x9700;&amp;#x8981;&amp;#x8FD0;&amp;#x884C;startService&amp;#xFF0C;&amp;#x6765;&amp;#x542F;&amp;#x52A8;&amp;#x4E00;&amp;#x4E2A;&amp;#x670D;&amp;#x52A1;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x6211;&amp;#x4EEC;&amp;#x5728;&amp;#x4F7F;&amp;#x7528;&amp;#x7CFB;&amp;#x7EDF;&amp;#x670D;&amp;#x52A1;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x5374;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#xFF0C;&amp;#x800C;&amp;#x662F;&amp;#x53EA;&amp;#x9700;&amp;#x8981;&amp;#x8C03;&amp;#x7528;getSystemService()&amp;#x6765;&amp;#x83B7;&amp;#x5F97;&amp;#x7CFB;&amp;#x7EDF;&amp;#x670D;&amp;#x52A1;&amp;#xFF0C;&amp;#x8FD9;&amp;#x662F;&amp;#x56E0;&amp;#x4E3A;&amp;#x6211;&amp;#x4EEC;&amp;#x4E0A;&amp;#x9762;&amp;#x63D0;&amp;#x5230;&amp;#x7684;&amp;#x5728;&amp;#x7CFB;&amp;#x7EDF;&amp;#x542F;&amp;#x52A8;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#xFF0C;Zygote&amp;#x4F1A;&amp;#x6700;&amp;#x65E9;&amp;#x751F;&amp;#x6210;&amp;#x7684;&amp;#x4E00;&amp;#x4E2A;SystemServer&amp;#x8FD9;&amp;#x4E2A;&amp;#x8FD0;&amp;#x884C;&amp;#x5728;Dalvik&amp;#x865A;&amp;#x62DF;&amp;#x673A;&amp;#x4E0A;&amp;#x7684;Java&amp;#x8FDB;&amp;#x7A0B;&amp;#x3002;&amp;#x4E0A;&amp;#x9762;&amp;#x8FD0;&amp;#x884C;&amp;#x7740;&amp;#x591A;&amp;#x79CD;&amp;#x7CFB;&amp;#x7EDF;&amp;#x670D;&amp;#x52A1;&amp;#xFF0C;&amp;#x4E5F;&amp;#x5C31;&amp;#x8BF4;&amp;#x8FD9;&amp;#x4E9B;&amp;#x670D;&amp;#x52A1;&amp;#x5728;&amp;#x5DF2;&amp;#x7ECF;&amp;#x542F;&amp;#x52A8;&amp;#x597D;&amp;#x4E86;&amp;#x7684;&amp;#xFF0C;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x6211;&amp;#x4EEC;&amp;#x91CD;&amp;#x65B0;&amp;#x542F;&amp;#x52A8;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x4E0B;&amp;#x9762;&amp;#x662F;&amp;#x6574;&amp;#x4E2A;SystemServer&amp;#x4EE5;&amp;#x53CA;MediaServer&amp;#x542F;&amp;#x52A8;&amp;#x7684;&amp;#x6574;&amp;#x4E2A;&amp;#x8FC7;&amp;#x7A0B;&amp;#xFF0C;&amp;#x5148;&amp;#x4E0A;&amp;#x56FE;&amp;#xFF0C;&amp;#x540E;&amp;#x8865;&amp;#x4E0A;&amp;#x8BE6;&amp;#x7EC6;&amp;#x7684;&amp;#x4EE3;&amp;#x7801;&amp;#x5206;&amp;#x6790;&amp;#xFF0C;&amp;#x54CE;&amp;#xFF0C;&amp;#x53C8;&amp;#x6B20;&amp;#x4E86;&amp;#x4E00;&amp;#x5927;&amp;#x6BB5;&amp;#x6587;&amp;#x5B57;&amp;#xFF0C;&amp;#x54C8;&amp;#x54C8;&amp;#xFF0C;&amp;#x4E0D;&amp;#x8FC7;&amp;#x6211;&amp;#x559C;&amp;#x6B22;&amp;#x3002;&amp;#x5927;&amp;#x5BB6;&amp;#x770B;&amp;#x56FE;&amp;#x4F30;&amp;#x8BA1;&amp;#x770B;&amp;#x5F97;&amp;#x66F4;&amp;#x6E05;&amp;#x695A;&amp;#x4E9B;&amp;#xFF1A;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2016/08/03/Android-&amp;#x6E90;&amp;#x7801;&amp;#x5206;&amp;#x6790;Zygote/221.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;Zygote&quot;&gt;&lt;a href=&quot;#Zygote&quot; class=&quot;headerlink&quot; title=&quot;Zygote&quot;&gt;&lt;/a&gt;Zygote&lt;/h4&gt;&lt;p&gt;&amp;#x6545;&amp;#x540D;&amp;#x601D;&amp;#x8BAE;&amp;#x5C31;&amp;#x662F;&amp;#x201
-    
-    </summary>
-    
-      <category term="Android 源码分析" scheme="http://yoursite.com/categories/Android-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="AOSP 源码" scheme="http://yoursite.com/tags/AOSP-%E6%BA%90%E7%A0%81/"/>
     
   </entry>
   
